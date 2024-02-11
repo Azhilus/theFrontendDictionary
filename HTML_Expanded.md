@@ -1,14 +1,18 @@
 ## 1. `<a>` (Anchor):
    - **Description**: The `<a>` tag defines a hyperlink, which is used to link one webpage to another or link to specific parts within the same webpage.
+     
    - **Attributes**:
      - `href`: Specifies the URL of the linked page or the location within the same page (e.g., `href="https://example.com"`).
      - `target`: Specifies where to open the linked document (e.g., `_blank`, `_self`, `_parent`, `_top`).
      - `title`: Provides additional information about the linked document (e.g., `title="Visit Example"`).
+       
    - **Use Cases**: Creating navigation menus, linking to external or internal pages, creating buttons or images with clickable behavior.
+     
    - **Example**:
      ```html
      <a href="https://example.com" target="_blank" title="Visit Example">Visit Example</a>
      ```
+     
    - *CSS Attributes and Effects*:
      - `color`: Changes the color of the link text.
      - `text-decoration`: Specifies the decoration added to the link text (e.g., `underline`, `none`).
