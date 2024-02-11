@@ -123,7 +123,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `font-weight`: Sets the weight (boldness) of the text.
-
+<br><br/>
 ## 9. `<base>` (Document Base URL):
    - **Description**: The `<base>` tag specifies the base URL and target for all relative URLs in a document.
    - **Attributes**:
@@ -135,7 +135,7 @@
      <base href="https://example.com/"target="_blank">
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<base>`.)
-
+<br><br/>
 ## 10. `<bdi>` (Bi-Directional Isolation):
    - **Description**: The `<bdi>` tag isolates a span of text that might be formatted in a different direction from the surrounding text.
    - **Attributes**: None
@@ -145,7 +145,7 @@
       <p>Welcome to our website. Your username is: <bdi>مرحبا</bdi></p>```
       
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<bdi>`.)
-    
+<br><br/>    
 ## 11. `<bdo>` (Bi-Directional Override):
    - **Description**: The `<bdo>` tag overrides the default directionality of text, allowing you to specify whether the text should be displayed from left to right or right to left.
    - **Attributes**:
@@ -156,7 +156,7 @@
      <p><bdo dir="rtl">مرحبا</bdo> Hello</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<bdo>`.)
-
+<br><br/>
 ## 12. `<blockquote>` (Block Quotation):
    - **Description**: The `<blockquote>` tag defines a block of quoted text, typically indented and styled differently from the surrounding text.
    - **Attributes**:
@@ -169,7 +169,7 @@
      </blockquote>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<blockquote>`.)
-
+<br><br/>
 ## 13. `<body>` (Document Body):
    - **Description**: The `<body>` tag defines the main content of an HTML document, including text, images, links, etc.
    - **Attributes**: None
@@ -188,7 +188,7 @@
      - `line-height`: Sets the line height for text within the document.
      - `margin`: Sets the margins around the document content.
      - `padding`: Sets the padding around the document content.
-
+<br><br/>
 ## 14. `<br>` (Line Break):
    - **Description**: The `<br>` tag inserts a single line break within text content.
    - **Attributes**: None
@@ -198,7 +198,7 @@
      <p>This is<br>a line break.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<br>`.)
-
+<br><br/>
 ## 15. `<button>` (Button):
    - **Description**: The `<button>` tag defines a clickable button, which can be used to trigger actions or submit forms.
    - **Attributes**:
@@ -219,7 +219,7 @@
      - `padding`: Sets the padding around the button text.
      - `border`: Sets the border around the button.
      - `cursor`: Sets the cursor style when hovering over the button.
-
+<br><br/>
 ## 16. `<canvas>` (Drawing Area):
    - **Description**: The `<canvas>` tag provides a drawing surface for graphics and animations using JavaScript.
    - **Attributes**:
@@ -231,7 +231,7 @@
      <canvas id="myCanvas" width="200" height="100"></canvas>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<canvas>`.)
-
+<br><br/>
 ## 17. `<caption>` (Table Caption):
    - **Description**: The `<caption>` tag defines a caption for a `<table>` element, providing a title or description for the table.
    - **Attributes**: None
@@ -251,7 +251,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<caption>`.)
-
+<br><br/>
 ## 18. `<cite>` (Citation):
    - **Description**: The `<cite>` tag defines the title of a creative work, such as a book, movie, or song.
    - **Attributes**: None
@@ -261,7 +261,7 @@
      <p>The book <cite>The Great Gatsby</cite> was written by F. Scott Fitzgerald.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<cite>`.)
-
+<br><br/>
 ## 19. `<code>` (Code):
    - **Description**: The `<code>` tag defines a piece of computer code, typically displayed in a monospaced font.
    - **Attributes**: None
@@ -273,7 +273,7 @@
    - *CSS Attributes and Effects*:
      - `font-family`: Sets the font family for code text.
      - `background-color`: Sets the background color behind code text.
-
+<br><br/>
 ## 20. `<col>` (Table Column):
    - **Description**: The `<col>` tag defines properties for a column within a `<table>` element.
    - **Attributes**:
@@ -294,7 +294,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<col>`.)
-
+<br><br/>
 ## 21. `<colgroup>` (Table Column Group):
    - **Description**: The `<colgroup>` tag groups together a set of `<col>` elements to apply properties to multiple columns in a table simultaneously.
    - **Attributes**: None
@@ -313,7 +313,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<colgroup>`.)
-
+<br><br/>
 ## 22. `<data>` (Data Value):
    - **Description**: The `<data>` tag provides a machine-readable value within a document, often used for numerical or quantitative data.
    - **Attributes**:
@@ -324,7 +324,7 @@
      <p>The population of <data value="328200000">the United States</data> is approximately 328,200,000.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<data>`.)
-
+<br><br/>
 ## 23. `<datalist>` (Pre-defined Options for Input):
    - **Description**: The `<datalist>` tag provides a list of predefined options for an `<input>` element, allowing users to select from a list while still permitting freeform input.
    - **Attributes**: None
@@ -342,7 +342,7 @@
      </datalist>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<datalist>`.)
-
+<br><br/>
 ## 24. `<dd>` (Description List Definition):
    - **Description**: The `<dd>` tag defines the description of a term in a description list (`<dl>`).
    - **Attributes**: None
@@ -357,7 +357,7 @@
      </dl>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<dd>`.)
-
+<br><br/>
 ## 25. `<del>` (Deleted Text):
    - **Description**: The `<del>` tag defines text that has been deleted or removed from a document.
    - **Attributes**:
@@ -370,7 +370,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `text-decoration`: Sets the decoration for deleted text (e.g., `line-through`).
-
+<br><br/>
 ## 26. `<details>` (Disclosure Widget):
    - **Description**: The `<details>` tag creates a disclosure widget that can be toggled open or closed to reveal additional content.
    - **Attributes**: None
@@ -383,7 +383,7 @@
      </details>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<details>`.)
-
+<br><br/>
 ## 27. `<dfn>` (Definition Term):
    - **Description**: The `<dfn>` tag defines a term that is being defined within a document, typically used in glossaries or dictionaries.
    - **Attributes**: None
@@ -393,7 +393,7 @@
      <p>The <dfn>Internet</dfn> is a global network of interconnected computers.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<dfn>`.)
-
+<br><br/>
 ## 28. `<dialog>` (Dialog Box):
    - **Description**: The `<dialog>` tag defines a dialog box or modal window within a document, typically used for interactions that require user attention or input.
    - **Attributes**:
@@ -407,7 +407,7 @@
      </dialog>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<dialog>`.)
-
+<br><br/>
 ## 29. `<div>` (Division):
    - **Description**: The `<div>` tag defines a generic container or division within a document, often used for grouping and styling purposes.
    - **Attributes**: None
@@ -420,7 +420,7 @@
      </div>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<div>`.)
-
+<br><br/>
 ## 30. `<dl>` (Description List):
    - **Description**: The `<dl>` tag defines a description list, which consists of terms (`<dt>`) and their associated descriptions (`<dd>`).
    - **Attributes**: None
@@ -435,7 +435,7 @@
      </dl>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<dl>`.)
-
+<br><br/>
 ## 31. `<dt>` (Description List Term):
    - **Description**: The `<dt>` tag defines a term or name in a description list (`<dl>`).
    - **Attributes**: None
@@ -450,7 +450,7 @@
      </dl>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<dt>`.)
-
+<br><br/>
 ## 32. `<em>` (Emphasis):
    - **Description**: The `<em>` tag defines text that should be emphasized, typically rendered in italics by default.
    - **Attributes**: None
@@ -461,7 +461,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `font-style`: Sets the style of the emphasized text (e.g., `italic`).
-
+<br><br/>
 ## 33. `<embed>` (Embedded Content):
    - **Description**: The `<embed>` tag embeds external content such as multimedia (e.g., audio, video, or interactive content) directly into an HTML document.
    - **Attributes**:
@@ -473,7 +473,7 @@
      <embed src="video.mp4" type="video/mp4">
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<embed>`.)
-
+<br><br/>
 ## 34. `<fieldset>` (Field Set):
    - **Description**: The `<fieldset>` tag groups related form elements together and creates a visual container for them, often with a border and optional legend.
    - **Attributes**: None
@@ -491,7 +491,7 @@
    - *CSS Attributes and Effects*:
      - `border`: Sets the border around the fieldset.
      - `padding`: Sets the padding inside the fieldset.
-
+<br><br/>
 ## 35. `<figcaption>` (Figure Caption):
    - **Description**: The `<figcaption>` tag defines a caption or title for a `<figure>` element, providing a description or context for the content within the figure.
    - **Attributes**: None
@@ -504,7 +504,7 @@
      </figure>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<figcaption>`.)
-
+<br><br/>
 ## 36. `<figure>` (Figure):
    - **Description**: The `<figure>` tag encapsulates self-contained content like images, illustrations, diagrams, or code snippets, along with an optional `<figcaption>`.
    - **Attributes**: None
@@ -517,7 +517,7 @@
      </figure>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<figure>`.)
-
+<br><br/>
 ## 37. `<footer>` (Footer):
    - **Description**: The `<footer>` tag defines the footer section of a document or a section within a document, typically containing metadata, copyright information, or navigation links.
    - **Attributes**: None
@@ -529,7 +529,7 @@
      </footer>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<footer>`.)
-
+<br><br/>
 ## 38. `<form>` (Form):
    - **Description**: The `<form>` tag creates an interactive form for collecting user input, which can be submitted to a server for processing.
    - **Attributes**:
@@ -545,7 +545,7 @@
      </form>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<form>`.)
-
+<br><br/>
 ## 39. `<h1>` to `<h6>` (Headings):
    - **Description**: The `<h1>` to `<h6>` tags define headings of different levels, where `<h1>` is the highest and `<h6>` is the lowest level heading.
    - **Attributes**: None
@@ -560,7 +560,7 @@
      - `font-size`: Sets the size of the heading text.
      - `font-weight`: Sets the weight (boldness) of the heading text.
      - `margin`: Sets the margins around the heading text.
-
+<br><br/>
 ## 40.  `<head>` (Document Head):
    - **Description**: The `<head>` tag contains metadata and links to external resources that are essential for the document, such as `<title>`, `<meta>`, `<link>`, and `<script>` tags.
    - **Attributes**: None
@@ -575,7 +575,7 @@
      </head>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<head>`.)
-
+<br><br/>
 ## 41. `<header>` (Header):
    - **Description**: The `<header>` tag defines the header section of a document or a section within a document, typically containing introductory content, logos, navigation menus, etc.
    - **Attributes**: None
@@ -594,7 +594,7 @@
      </header>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<header>`.)
-
+<br><br/>
 ## 42. `<hr>` (Horizontal Rule):
    - **Description**: The `<hr>` tag inserts a thematic break or horizontal line within a document, typically used to separate content sections.
    - **Attributes**: None
@@ -607,7 +607,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `border`: Sets the style, color, and width of the horizontal rule.
-
+<br><br/>
 ## 43. `<html>` (HTML Document):
    - **Description**: The `<html>` tag defines the root element of an HTML document, encapsulating all other elements within the document.
    - **Attributes**: None
@@ -626,7 +626,7 @@
      </html>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<html>`.)
-
+<br><br/>
 ## 44. `<i>` (Italic Text):
    - **Description**: The `<i>` tag defines text that is set in italic style, typically used for stylistic differentiation rather than semantic emphasis.
    - **Attributes**: None
@@ -637,7 +637,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `font-style`: Sets the style of the italic text.
-
+<br><br/>
 ## 45. `<iframe>` (Inline Frame):
    - **Description**: The `<iframe>` tag embeds another HTML document within the current document, creating a nested browsing context.
    - **Attributes**:
@@ -650,7 +650,7 @@
      <iframe src="https://www.example.com" width="600" height="400"></iframe>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<iframe>`.)
-
+<br><br/>
 ## 46. `<img>` (Image):
    - **Description**: The `<img>` tag embeds an image within a document, displaying a graphical representation.
    - **Attributes**:
@@ -664,7 +664,7 @@
      <img src="image.jpg" alt="Image Description" width="200" height="150">
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<img>`.)
-
+<br><br/>
 ## 47. `<input>` (Input Control):
    - **Description**: The `<input>` tag creates an interactive control element, such as a text field, checkbox, radio button, or button.
    - **Attributes**:
@@ -678,7 +678,7 @@
      <input type="checkbox" name="subscribe" value="yes"> Subscribe
      ```
    - *CSS Attributes and Effects*: (Styling input controls can vary widely and depend on the specific type of control.)
-
+<br><br/>
 ## 48. `<ins>` (Inserted Text):
    - **Description**: The `<ins>` tag defines text that has been inserted into a document, typically rendered with an underline by default.
    - **Attributes**:
@@ -691,7 +691,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `text-decoration`: Sets the decoration for inserted text (e.g., `underline`).
-
+<br><br/>
 ## 49. `<kbd>` (Keyboard Input):
    - **Description**: The `<kbd>` tag defines text that represents user input from the keyboard, typically rendered in a monospaced font.
    - **Attributes**: None
@@ -702,7 +702,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `font-family`: Sets the font family for keyboard input text.
-
+<br><br/>
 ## 50. `<label>` (Form Label):
    - **Description**: The `<label>` tag defines a label for an `<input>` element, providing a description or title for the input control.
    - **Attributes**:
@@ -714,7 +714,7 @@
      <input type="text" id="username" name="username">
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<label>`.)
-
+<br><br/>
 ## **51. `<legend>` (Field Set Legend):**
    - **Description**: The `<legend>` tag defines a caption for the `<fieldset>` element, providing a title or description for the group of related form elements.
    - **Attributes**: None
@@ -727,7 +727,7 @@
      </fieldset>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<legend>`.)
-
+<br><br/>
 ## **52. `<li>` (List Item):**
    - **Description**: The `<li>` tag defines a single item in a list (`<ul>`, `<ol>`, or `<menu>`).
    - **Attributes**: None
@@ -741,7 +741,7 @@
      </ul>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<li>`.)
-
+<br><br/>
 ## **53. `<link>` (External Resource Link):**
    - **Description**: The `<link>` tag defines a relationship between the current document and an external resource, typically used to link stylesheets, icons, or alternate versions of the document.
    - **Attributes**:
@@ -753,7 +753,7 @@
      <link rel="stylesheet" href="styles.css">
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<link>`.)
-
+<br><br/>
 ## **54. `<main>` (Main Content):**
    - **Description**: The `<main>` tag defines the main content area of a document, representing the primary content of the document.
    - **Attributes**: None
@@ -766,7 +766,7 @@
      </main>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<main>`.)
-
+<br><br/>
 ## **55. `<map>` (Image Map):**
    - **Description**: The `<map>` tag defines a client-side image map, allowing different regions of an image to be clickable and linked to different URLs or actions.
    - **Attributes**:
@@ -781,7 +781,7 @@
      </map>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<map>`.)
-
+<br><br/>
 ## **56. `<mark>` (Highlighted Text):**
    - **Description**: The `<mark>` tag defines text that should be highlighted, typically rendered with a yellow background by default.
    - **Attributes**: None
@@ -791,7 +791,7 @@
      <p>This is <mark>important</mark> information.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<mark>`.)
-
+<br><br/>
 ## **57. `<menu>` (Menu):**
    - **Description**: The `<menu>` tag defines a list of commands or options, typically used to create context menus or toolbars.
    - **Attributes**:
@@ -806,7 +806,7 @@
      </menu>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<menu>`.)
-
+<br><br/>
 ## **58. `<meta>` (Metadata):**
    - **Description**: The `<meta>` tag provides metadata about the HTML document, such as character encoding, viewport settings, or keywords.
    - **Attributes**:
@@ -820,7 +820,7 @@
      <meta name="keywords" content="HTML, CSS, JavaScript">
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<meta>`.)
-
+<br><br/>
 ## **59. `<meter>` (Meter):**
    - **Description**: The `<meter>` tag defines a scalar measurement within a known range, such as a gauge or progress indicator.
    - **Attributes**:
@@ -833,7 +833,7 @@
      <meter value="70" min="0" max="100">70%</meter>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<meter>`.)
-
+<br><br/>
 ## **60. `<nav>` (Navigation):**
    - **Description**: The `<nav>` tag defines a section of navigation links, typically used to create menus, navigation bars, or lists of links.
    - **Attributes**: None
@@ -849,7 +849,7 @@
      </nav>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<nav>`.)
-
+<br><br/>
 ## **61. `<noscript>` (No Script):**
    - **Description**: The `<noscript>` tag defines content to be displayed if scripts are not supported or disabled in the browser.
    - **Attributes**: None
@@ -861,7 +861,7 @@
      </noscript>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<noscript>`.)
-
+<br><br/>
 ## **62. `<object>` (Embedded Object):**
    - **Description**: The `<object>` tag embeds an external resource, such as an image, audio, video, or interactive application, into an HTML document.
    - **Attributes**:
@@ -875,7 +875,7 @@
      </object>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<object>`.)
-
+<br><br/>
 ## **63. `<ol>` (Ordered List):**
    - **Description**: The `<ol>` tag defines an ordered list, where each list item is numbered sequentially.
    - **Attributes**: None
@@ -889,7 +889,7 @@
      </ol>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<ol>`.)
-
+<br><br/>
 ## **64. `<optgroup>` (Option Group):**
    - **Description**: The `<optgroup>` tag groups related `<option>` elements within a `<select>` dropdown list.
    - **Attributes**:
@@ -909,7 +909,7 @@
      </select>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<optgroup>`.)
-
+<br><br/>
 ## **65. `<option>` (Dropdown Option):**
    - **Description**: The `<option>` tag defines an option within a `<select>` dropdown list or a `<datalist>` element.
    - **Attributes**:
@@ -923,7 +923,7 @@
      </select>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<option>`.)
-
+<br><br/>
 ## **66. `<output>` (Output):**
    - **Description**: The `<output>` tag represents the result of a calculation or the output of a script.
    - **Attributes**:
@@ -938,7 +938,7 @@
      </form>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<output>`.)
-
+<br><br/>
 ## **67. `<p>` (Paragraph):**
    - **Description**: The `<p>` tag defines a paragraph of text.
    - **Attributes**: None
@@ -948,7 +948,7 @@
      <p>This is a paragraph of text.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<p>`.)
-
+<br><br/>
 ## **68. `<param>` (Object Parameter):**
    - **Description**: The `<param>` tag defines parameters for `<object>` elements.
    - **Attributes**:
@@ -964,7 +964,7 @@
      </object>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<param>`.)
-
+<br><br/>
 ## **69. `<picture>` (Responsive Image):**
    - **Description**: The `<picture>` tag contains multiple `<source>` elements and one `<img>` element to provide responsive images based on device characteristics.
    - **Attributes**: None
@@ -978,7 +978,7 @@
      </picture>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<picture>`.)
-
+<br><br/>
 ## **70. `<pre>` (Preformatted Text):**
    - **Description**: The `<pre>` tag defines preformatted text, preserving both spaces and line breaks.
    - **Attributes**: None
@@ -991,7 +991,7 @@
      </pre>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<pre>`.)
-
+<br><br/>
 ## **71. `<progress>` (Progress Bar):**
    - **Description**: The `<progress>` tag represents the progress of a task or process, typically displayed as a horizontal bar.
    - **Attributes**:
@@ -1003,7 +1003,7 @@
      <progress value="50" max="100"></progress>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<progress>`.)
-
+<br><br/>
 ## **72. `<q>` (Short Quotation):**
    - **Description**: The `<q>` tag defines a short inline quotation.
    - **Attributes**:
@@ -1014,7 +1014,7 @@
      <p>He said <q cite="https://example.com">Hello</q>.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<q>`.)
-
+<br><br/>
 ## **73. `<rp>` (Ruby Parenthesis):**
    - **Description**: The `<rp>` tag provides parentheses around the ruby text in a ruby annotation.
    - **Attributes**: None
@@ -1026,7 +1026,7 @@
      </ruby>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<rp>`.)
-
+<br><br/>
 ## **74. `<rt>` (Ruby Text):**
    - **Description**: The `<rt>` tag defines the ruby text component of a ruby annotation.
    - **Attributes**: None
@@ -1038,7 +1038,7 @@
      </ruby>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<rt>`.)
-
+<br><br/>
 ## **75. `<ruby>` (Ruby Annotation):**
    - **Description**: The `<ruby>` tag defines a ruby annotation, used for displaying pronunciation or translation of characters.
    - **Attributes**: None
@@ -1050,7 +1050,7 @@
      </ruby>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<ruby>`.)
-
+<br><br/>
 ## **76. `<s>` (Strikethrough):**
    - **Description**: The `<s>` tag defines text that is no longer accurate or relevant, typically rendered with a strikethrough style.
    - **Attributes**: None
@@ -1061,7 +1061,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `text-decoration`: Sets the decoration for strikethrough text (e.g., `line-through`).
-
+<br><br/>
 ## **77. `<samp>` (Sample Output):**
    - **Description**: The `<samp>` tag defines text that represents sample output or code output.
    - **Attributes**: None
@@ -1071,7 +1071,7 @@
      <p>Sample output: <samp>Hello, world!</samp></p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<samp>`.)
-
+<br><br/>
 ## **78. `<script>` (Script):**
    - **Description**: The `<script>` tag embeds or links to client-side scripts, such as JavaScript, within an HTML document.
    - **Attributes**:
@@ -1085,7 +1085,7 @@
      </script>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<script>`.)
-
+<br><br/>
 ## **79. `<section>` (Section):**
    - **Description**: The `<section>` tag defines a section within a document, often used for thematic grouping of content.
    - **Attributes**: None
@@ -1098,7 +1098,7 @@
      </section>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<section>`.)
-
+<br><br/>
 ## **80. `<select>` (Dropdown List):**
    - **Description**: The `<select>` tag creates a dropdown list from which users can select one or more options.
    - **Attributes**: None
@@ -1111,7 +1111,7 @@
      </select>
      ```
    - *CSS Attributes and Effects*: (Styling dropdown lists can vary widely and depend on the specific browser.)
-
+<br><br/>
 ## **81. `<small>` (Small Text):**
    - **Description**: The `<small>` tag defines small text, typically used for disclaimers, copyright notices, or fine print.
    - **Attributes**: None
@@ -1121,7 +1121,7 @@
      <p>This is <small>small text</small>.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<small>`.)
-
+<br><br/>
 ## **82. `<source>` (Media Source):**
    - **Description**: The `<source>` tag specifies multiple media resources for `<audio>`, `<video>`, or `<picture>` elements, allowing the browser to choose the most suitable one.
    - **Attributes**:
@@ -1137,7 +1137,7 @@
      </video>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<source>`.)
-
+<br><br/>
 ## **83. `<span>` (Inline Container):**
    - **Description**: The `<span>` tag defines an inline container for a section of text or other inline elements, allowing styling or manipulation of specific parts of the content.
    - **Attributes**: None
@@ -1147,7 +1147,7 @@
      <p>This is <span style="color: red;">highlighted</span> text.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<span>`.)
-
+<br><br/>
 ## **84. `<strong>` (Strong Importance):**
    - **Description**: The `<strong>` tag defines text with strong importance, typically rendered with bold font weight by default.
    - **Attributes**: None
@@ -1158,7 +1158,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `font-weight`: Sets the weight (boldness) of the text.
-
+<br><br/>
 ## **85. `<style>` (Style):**
    - **Description**: The `<style>` tag contains CSS rules for styling HTML elements within the document.
    - **Attributes**:
@@ -1173,7 +1173,7 @@
      </style>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<style>`.)
-
+<br><br/>
 ## **86. `<sub>` (Subscript):**
    - **Description**: The `<sub>` tag defines subscripted text, typically rendered with a smaller font size and positioned below the baseline.
    - **Attributes**: None
@@ -1183,7 +1183,7 @@
      <p>This is H<sub>2</sub>O.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<sub>`.)
-
+<br><br/>
 ## **87. `<summary>` (Details Summary):**
    - **Description**: The `<summary>` tag defines a summary or heading for the `<details>` element, which represents a disclosure widget from which the user can obtain additional information or controls.
    - **Attributes**: None
@@ -1196,7 +1196,7 @@
      </details>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<summary>`.)
-
+<br><br/>
 ## **88. `<sup>` (Superscript):**
    - **Description**: The `<sup>` tag defines superscripted text, typically rendered with a smaller font size and positioned above the baseline.
    - **Attributes**: None
@@ -1206,7 +1206,7 @@
      <p>This is 10<sup>th</sup> document.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<sup>`.)
-
+<br><br/>
 ## **89. `<svg>` (Scalable Vector Graphics):**
    - **Description**: The `<svg>` tag embeds SVG (Scalable Vector Graphics) within an HTML document, allowing for the creation of scalable and interactive graphics.
    - **Attributes**: None
@@ -1218,7 +1218,7 @@
      </svg>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<svg>`.)
-
+<br><br/>
 ## **90. `<table>` (Table):**
    - **Description**: The `<table>` tag defines an HTML table, which consists of rows (`<tr>`) containing cells (`<td>` or `<th>`).
    - **Attributes**: None
@@ -1237,7 +1237,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<table>`.)
-
+<br><br/>
 ## **91. `<tbody>` (Table Body):**
    - **Description**: The `<tbody>` tag groups the body content of an HTML table, containing one or more `<tr>` elements.
    - **Attributes**: None
@@ -1254,7 +1254,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<tbody>`.)
-
+<br><br/>
 ## **92. `<td>` (Table Data Cell):**
    - **Description**: The `<td>` tag defines a data cell within an HTML table, containing data or content.
    - **Attributes**: None
@@ -1269,7 +1269,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<td>`.)
-
+<br><br/>
 ## **93. `<template>` (Template):**
    - **Description**: The `<template>` tag holds HTML content that should not be rendered when the page is loaded, but can be cloned and inserted into the document using JavaScript.
    - **Attributes**: None
@@ -1281,7 +1281,7 @@
      </template>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<template>`.)
-
+<br><br/>
 ## **94. `<textarea>` (Text Area):**
    - **Description**: The `<textarea>` tag creates a multi-line text input control, allowing users to input larger amounts of text.
    - **Attributes**:
@@ -1293,7 +1293,7 @@
      <textarea cols="30" rows="5"></textarea>
      ```
    - *CSS Attributes and Effects*: (Styling text areas can vary widely and depend on the specific browser.)
-
+<br><br/>
 ## **95. `<tfoot>` (Table Footer):**
    - **Description**: The `<tfoot>` tag groups the footer content of an HTML table, typically containing summary information or totals.
    - **Attributes**: None
@@ -1310,7 +1310,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<tfoot>`.)
-
+<br><br/>
 ## **96. `<th>` (Table Header Cell):**
    - **Description**: The `<th>` tag defines a header cell within an HTML table, typically used to label columns or rows.
    - **Attributes**: 
@@ -1330,7 +1330,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<th>`.)
-
+<br><br/>
 ## **97. `<thead>` (Table Header):**
    - **Description**: The `<thead>` tag groups the header content of an HTML table.
    - **Attributes**: None
@@ -1353,7 +1353,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<thead>`.)
-
+<br><br/>
 ## **98. `<time>` (Time):**
    - **Description**: The `<time>` tag represents a specific period in time or a duration, such as a date, time, or datetime.
    - **Attributes**:
@@ -1364,7 +1364,7 @@
      <p>Meeting at <time datetime="2024-02-15T08:30">8:30 AM</time> in the conference room.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<time>`.)
-
+<br><br/>
 ## **99. `<title>` (Title):**
    - **Description**: The `<title>` tag defines the title of the document, which is displayed in the browser's title bar or tab.
    - **Attributes**: None
@@ -1382,7 +1382,7 @@
      </html>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<title>`.)
-
+<br><br/>
 ## **100. `<tr>` (Table Row):**
    - **Description**: The `<tr>` tag defines a row within an HTML table, containing one or more table cells (`<td>` or `<th>`).
    - **Attributes**: None
@@ -1397,7 +1397,7 @@
      </table>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<tr>`.)
-
+<br><br/>
 ## **101. `<track>` (Text Track):**
    - **Description**: The `<track>` tag specifies text tracks for `<audio>` or `<video>` elements, such as subtitles, captions, or descriptions.
    - **Attributes**:
@@ -1413,7 +1413,7 @@
      </video>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<track>`.)
-
+<br><br/>
 ## **102. `<u>` (Underline):**
    - **Description**: The `<u>` tag defines text that should be underlined, though it's generally not recommended for indicating semantics.
    - **Attributes**: None
@@ -1424,7 +1424,7 @@
      ```
    - *CSS Attributes and Effects*:
      - `text-decoration`: Sets the decoration for underlined text (e.g., `underline`).
-
+<br><br/>
 ## **103. `<ul>` (Unordered List):**
    - **Description**: The `<ul>` tag defines an unordered
 
@@ -1439,7 +1439,7 @@
      </ul>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<ul>`.)
-
+<br><br/>
 ## **104. `<var>` (Variable):**
    - **Description**: The `<var>` tag defines a variable within the context of a document, typically rendered in italics.
    - **Attributes**: None
@@ -1449,7 +1449,7 @@
      <p>The <var>x</var> variable represents the unknown value.</p>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<var>`.)
-
+<br><br/>
 ## **105. `<video>` (Video):**
    - **Description**: The `<video>` tag embeds video content within an HTML document, providing a native way to play video files.
    - **Attributes**:
