@@ -1,103 +1,203 @@
-1. -webkit-appearance: Specifies how an element should be styled if it's rendered using the WebKit engine.
-2. -webkit-border-before: Sets the properties for a pseudo-element that appears before the border of an element.
-3. -webkit-border-before-color: Sets the color of the pseudo-element that appears before the border of an element.
-4. -webkit-border-before-style: Sets the style of the pseudo-element that appears before the border of an element.
-5. -webkit-border-before-width: Sets the width of the pseudo-element that appears before the border of an element.
-6. -webkit-border-end: Sets the properties for a pseudo-element that appears at the end of the border of an element.
-7. -webkit-border-end-color: Sets the color of the pseudo-element that appears at the end of the border of an element.
-8. -webkit-border-end-style: Sets the style of the pseudo-element that appears at the end of the border of an element.
-9. -webkit-border-end-width: Sets the width of the pseudo-element that appears at the end of the border of an element.
-10. -webkit-border-start: Sets the properties for a pseudo-element that appears at the start of the border of an element.
-11. -webkit-border-start-color: Sets the color of the pseudo-element that appears at the start of the border of an element.
-12. -webkit-border-start-style: Sets the style of the pseudo-element that appears at the start of the border of an element.
-13. -webkit-border-start-width: Sets the width of the pseudo-element that appears at the start of the border of an element.
-14. -webkit-box-reflect: Creates a reflection of the element.
-15. -webkit-font-size-delta: Sets a delta adjustment to the font size.
-16. -webkit-highlight: Sets the color of the highlight when the element is selected.
-17. -webkit-hyphenate-character: Sets the character used to indicate a hyphenation point.
-18. -webkit-line-clamp: Limits the number of lines in an element.
-19. -webkit-mask: Applies a mask to the element.
-20. -webkit-mask-box-image: Sets the image to be used as a mask border.
-21. -webkit-mask-box-image-outset: Specifies the amount by which the mask border image area extends beyond the border box.
-22. -webkit-mask-box-image-repeat: Specifies how the mask border image is repeated.
-23. -webkit-mask-box-image-slice: Defines the inward offsets of the mask border image.
-24. -webkit-mask-box-image-source: Specifies the image to be used as a mask border.
-25. -webkit-mask-box-image-width: Specifies the width of the mask border image.
-26. -webkit-mask-clip: Defines the masking region of the element.
-27. -webkit-mask-composite: Sets how the mask layers are composited together.
-28. -webkit-mask-image: Sets the image to be used as a mask.
-29. -webkit-mask-origin: Specifies the positioning area of the mask layer.
-30. -webkit-mask-position: Sets the position of the mask layer.
-31. -webkit-mask-repeat: Specifies how the mask image is repeated.
-32. -webkit-mask-size: Sets the size of the mask layer.
-33. -webkit-text-fill-color: Sets the fill color of the text.
-34. -webkit-text-stroke: Specifies the width, style, and color of the text stroke.
-35. -webkit-text-stroke-color: Sets the color of the text stroke.
-36. -webkit-text-stroke-width: Sets the width of the text stroke.
-37. @keyframes: Defines animations.
-38. align-content: Aligns the content inside a flex container.
-39. align-items: Aligns items inside a flex container.
-40. align-self: Aligns an item inside a flex container, overriding the align-items value.
-41. all: Resets all CSS properties to their initial values.
-42. animation: Defines an animation.
-43. animation-delay: Specifies the delay before an animation starts.
-44. animation-direction: Defines the direction of an animation.
-45. animation-duration: Specifies the duration of an animation.
-46. animation-fill-mode: Specifies how an animation should apply styles before and after it is executing.
-47. animation-iteration-count: Specifies the number of times an animation should be played.
-48. animation-name: Specifies the name of the @keyframes animation to use.
-49. animation-play-state: Defines whether an animation is running or paused.
-50. animation-timing-function: Specifies the speed curve of an animation.
-51. backface-visibility: Defines whether or not the back face of an element should be visible when facing the user.
-52. backdrop-filter: Applies graphical effects such as blurring or color shifting to the area behind an element.
-53. background: Sets multiple background properties in one declaration.
-54. background-attachment: Sets whether a background image is fixed or scrolls with the rest of the page.
-55. background-blend-mode: Specifies how the background image should blend with the element's background color or other background images.
-56. background-color: Sets the background color of an element.
-57. background-image: Sets one or more background images for an element.
-58. background-origin: Specifies where the background image(s) should originate from.
-59. background-position: Sets the starting position of a background image.
-60. background-repeat: Sets how a background image will be repeated.
-61. background-size: Specifies the size of the background images.
-62. border: Sets all the border properties in one declaration.
-63. border-bottom: Sets all the bottom border properties in one declaration.
-64. border-bottom-color: Sets the color of the bottom border.
-65. border-bottom-left-radius: Defines the shape of the bottom-left corner of the border.
-66. border-bottom-right-radius: Defines the shape of the bottom-right corner of the border.
-67. border-bottom-style: Sets the style of the bottom border.
-68. border-bottom-width: Sets the width of the bottom border.
-69. border-collapse: Sets whether table borders should collapse into a single border or be separate.
-70. border-color: Sets the color of the border.
-71. border-image: Sets the image to be used as a border.
-72. border-image-outset: Specifies the amount by which the border image area extends beyond the border box.
-73. border-image-repeat: Specifies how the border image is repeated.
-74. border-image-slice: Defines the inward offsets of the border image.
-75. border-image-source: Specifies the image to be used as a border.
-76. border-image-width: Specifies the width of the border image.
-77. border-left: Sets all the left border properties in one declaration.
-78. border-left-color: Sets the color of the left border.
-79. border-left-style: Sets the style of the left border.
-80. border-left-width: Sets the width of the left border.
-81. border-radius: A shorthand property for setting the border-radius properties.
-82. border-right: Sets all the right border properties in one declaration.
-83. border-right-color: Sets the color of the right border.
-84. border-right-style: Sets the style of the right border.
-85. border-right-width: Sets the width of the right border.
-86. border-spacing: Sets the distance between the borders of adjacent table cells.
-87. border-style: Sets the style of the border.
-88. border-top: Sets all the top border properties in one declaration.
-89. border-top-color: Sets the color of the top border.
-90. border-top-left-radius: Defines the shape of the top-left corner of the border.
-91. border-top-right-radius: Defines the shape of the top-right corner of the border.
-92. border-top-style: Sets the style of the top border.
-93. border-top-width: Sets the width of the top border.
-94. border-width: Sets the width of the border.
-95. bottom: Sets the bottom position of a positioned element.
-96. box-decoration-break: Specifies how the backgrounds, borders, padding, and content of an element should be broken across multiple lines/columns.
-97. box-shadow: Attaches one or more shadows to an element.
-98. box-sizing: Defines how the total width and height of an element is calculated.
-99. caption-side: Specifies the placement of a table caption.
-100. caret-color: Sets the color of the cursor (caret) in inputs, textareas, or other elements that are editable.
+**1. -webkit-appearance:** Specifies how an element should be styled if it's rendered using the WebKit engine.
+
+**2. -webkit-border-before:** Sets the properties for a pseudo-element that appears before the border of an element.
+
+**3. -webkit-border-before-color:** Sets the color of the pseudo-element that appears before the border of an element.
+
+**4. -webkit-border-before-style:** Sets the style of the pseudo-element that appears before the border of an element.
+
+**5. -webkit-border-before-width:** Sets the width of the pseudo-element that appears before the border of an element.
+
+**6. -webkit-border-end:** Sets the properties for a pseudo-element that appears at the end of the border of an element.
+
+**7. -webkit-border-end-color:** Sets the color of the pseudo-element that appears at the end of the border of an element.
+
+**8. -webkit-border-end-style:** Sets the style of the pseudo-element that appears at the end of the border of an element.
+
+**9. -webkit-border-end-width:** Sets the width of the pseudo-element that appears at the end of the border of an element.
+
+**10. -webkit-border-start:** Sets the properties for a pseudo-element that appears at the start of the border of an element.
+
+**11. -webkit-border-start-color:** Sets the color of the pseudo-element that appears at the start of the border of an element.
+
+**12. -webkit-border-start-style:** Sets the style of the pseudo-element that appears at the start of the border of an element.
+
+**13. -webkit-border-start-width:** Sets the width of the pseudo-element that appears at the start of the border of an element.
+
+**14. -webkit-box-reflect:** Creates a reflection of the element.
+
+**15. -webkit-font-size-delta:** Sets a delta adjustment to the font size.
+
+**16. -webkit-highlight:** Sets the color of the highlight when the element is selected.
+
+**17. -webkit-hyphenate-character:** Sets the character used to indicate a hyphenation point.
+
+**18. -webkit-line-clamp:** Limits the number of lines in an element.
+
+**19. -webkit-mask:** Applies a mask to the element.
+
+**20. -webkit-mask-box-image:** Sets the image to be used as a mask border.
+
+**21. -webkit-mask-box-image-outset:** Specifies the amount by which the mask border image area extends beyond the border box.
+
+**22. -webkit-mask-box-image-repeat:** Specifies how the mask border image is repeated.
+
+**23. -webkit-mask-box-image-slice:** Defines the inward offsets of the mask border image.
+
+**24. -webkit-mask-box-image-source:** Specifies the image to be used as a mask border.
+
+**25. -webkit-mask-box-image-width:** Specifies the width of the mask border image.
+
+**26. -webkit-mask-clip:** Defines the masking region of the element.
+
+**27. -webkit-mask-composite:** Sets how the mask layers are composited together.
+
+**28. -webkit-mask-image:** Sets the image to be used as a mask.
+
+**29. -webkit-mask-origin:** Specifies the positioning area of the mask layer.
+
+**30. -webkit-mask-position:** Sets the position of the mask layer.
+
+**31. -webkit-mask-repeat:** Specifies how the mask image is repeated.
+
+**32. -webkit-mask-size:** Sets the size of the mask layer.
+
+**33. -webkit-text-fill-color:** Sets the fill color of the text.
+
+**34. -webkit-text-stroke:** Specifies the width, style, and color of the text stroke.
+
+**35. -webkit-text-stroke-color:** Sets the color of the text stroke.
+
+**36. -webkit-text-stroke-width:** Sets the width of the text stroke.
+
+**37. @keyframes:** Defines animations.
+
+**38. align-content:** Aligns the content inside a flex container.
+
+**39. align-items:** Aligns items inside a flex container.
+
+**40. align-self:** Aligns an item inside a flex container, overriding the align-items value.
+
+**41. all:** Resets all CSS properties to their initial values.
+
+**42. animation:** Defines an animation.
+
+**43. animation-delay:** Specifies the delay before an animation starts.
+
+**44. animation-direction:** Defines the direction of an animation.
+
+**45. animation-duration:** Specifies the duration of an animation.
+
+**46. animation-fill-mode:** Specifies how an animation should apply styles before and after it is executing.
+
+**47. animation-iteration-count:** Specifies the number of times an animation should be played.
+
+**48. animation-name:** Specifies the name of the @keyframes animation to use.
+
+**49. animation-play-state:** Defines whether an animation is running or paused.
+
+**50. animation-timing-function:** Specifies the speed curve of an animation.
+
+**51. backface-visibility:** Defines whether or not the back face of an element should be visible when facing the user.
+
+**52. backdrop-filter:** Applies graphical effects such as blurring or color shifting to the area behind an element.
+
+**53. background:** Sets multiple background properties in one declaration.
+
+**54. background-attachment:** Sets whether a background image is fixed or scrolls with the rest of the page.
+
+**55. background-blend-mode:** Specifies how the background image should blend with the element's background color or other background images.
+
+**56. background-color:** Sets the background color of an element.
+
+**57. background-image:** Sets one or more background images for an element.
+
+**58. background-origin:** Specifies where the background image(s) should originate from.
+
+**59. background-position:** Sets the starting position of a background image.
+
+**60. background-repeat:** Sets how a background image will be repeated.
+
+**61. background-size:** Specifies the size of the background images.
+
+**62. border:** Sets all the border properties in one declaration.
+
+**63. border-bottom:** Sets all the bottom border properties in one declaration.
+
+**64. border-bottom-color:** Sets the color of the bottom border.
+
+**65. border-bottom-left-radius:** Defines the shape of the bottom-left corner of the border.
+
+**66. border-bottom-right-radius:** Defines the shape of the bottom-right corner of the border.
+
+**67. border-bottom-style:** Sets the style of the bottom border.
+
+**68. border-bottom-width:** Sets the width of the bottom border.
+
+**69. border-collapse:** Sets whether table borders should collapse into a single border or be separate.
+
+**70. border-color:** Sets the color of the border.
+
+**71. border-image:** Sets the image to be used as a border.
+
+**72. border-image-outset:** Specifies the amount by which the border image area extends beyond the border box.
+
+**73. border-image-repeat:** Specifies how the border image is repeated.
+
+**74. border-image-slice:** Defines the inward offsets of the border image.
+
+**75. border-image-source:** Specifies the image to be used as a border.
+
+**76. border-image-width:** Specifies the width of the border image.
+
+**77. border-left:** Sets all the left border properties in one declaration.
+
+**78. border-left-color:** Sets the color of the left border.
+
+**79. border-left-style:** Sets the style of the left border.
+
+**80. border-left-width:** Sets the width of the left border.
+
+**81. border-radius:** A shorthand property for setting the border-radius properties.
+
+**82. border-right:** Sets all the right border properties in one declaration.
+
+**83. border-right-color:** Sets the color of the right border.
+
+**84. border-right-style:** Sets the style of the right border.
+
+**85. border-right-width:** Sets the width of the right border.
+
+**86. border-spacing:** Sets the spacing between cells in a table.
+
+**87. border-style:** Sets the style of the border.
+
+**88. border-top:** Sets all the top border properties in one declaration.
+
+**89. border-top-color:** Sets the color of the top border.
+
+**90. border-top-left-radius:** Defines the shape of the top-left corner of the border.
+
+**91. border-top-right-radius:** Defines the shape of the top-right corner of the border.
+
+**92. border-top-style:** Sets the style of the top border.
+
+**93. border-top-width:** Sets the width of the top border.
+
+**94. border-width:** Sets the width of the border.
+
+**95. bottom:** Specifies the bottom position of a positioned element.
+
+**96. box-decoration-break:** Sets how the background, padding, and border of an element are displayed when broken across multiple lines.
+
+**97. box-shadow:** Attaches one or more drop-shadows to the box.
+
+**98. box-sizing:** Defines how the total width and height of an element is calculated.
+
+**99. break-after:** Sets how the page, column, or region should break after an element.
+
+**100. break-before:** Sets how the page, column, or region should break before an element.
+
 101. clear: Sets the position of the element in relation to floating elements.
 102. clip: Clips an absolutely positioned element.
 103. clip-path: Defines a clipping region to an element.
@@ -132,9 +232,7 @@
 132. font: A shorthand property for setting font-style, font-variant, font-weight, font-size, line-height, and font-family properties.
 133. font-display: Defines how a font face is displayed based on if and when it is downloaded and ready to use.
 134. font-family: Specifies the font family for text.
-135. font-feature-settings: Allows control over advanced typographic features in Open
-
-Type fonts.
+135. font-feature-settings: Allows control over advanced typographic features in OpenType fonts.
 136. font-kerning: Specifies whether or not kerning should be applied to the text.
 137. font-language-override: Specifies the language to use for the font.
 138. font-size: Sets the size of the font.
