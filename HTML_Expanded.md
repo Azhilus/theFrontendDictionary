@@ -1,4 +1,4 @@
-1. `<a>` (Anchor):
+## 1. `<a>` (Anchor):
    - Description: The `<a>` tag defines a hyperlink, which is used to link one webpage to another or link to specific parts within the same webpage.
    - Attributes:
      - `href`: Specifies the URL of the linked page or the location within the same page (e.g., `href="https://example.com"`).
@@ -14,7 +14,7 @@
      - `text-decoration`: Specifies the decoration added to the link text (e.g., `underline`, `none`).
      - `font-weight`: Sets the weight (boldness) of the link text.
 
-2. `<abbr>` (Abbreviation):
+## 2. `<abbr>` (Abbreviation):
    - Description: The `<abbr>` tag defines an abbreviation or an acronym, providing a tooltip with the full form when hovered over.
    - Attributes:
      - `title`: Specifies the full form of the abbreviation (e.g., `title="World Health Organization"`).
@@ -25,7 +25,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<abbr>`.)
 
-3. `<address>` (Contact Information):
+## 3. `<address>` (Contact Information):
    - Description: The `<address>` tag defines contact information for the author or owner of a document.
    - Attributes: None
    - Use Cases: Displaying contact information like postal address, email, or phone number.
@@ -40,7 +40,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<address>`.)
 
-4. `<area>` (Image Map Region):
+## 4. `<area>` (Image Map Region):
    - Description: The `<area>` tag defines a clickable area within an image map, usually used alongside `<map>` to define clickable regions on an image.
    - Attributes:
      - `alt`: Specifies an alternative text for the area (similar to the `alt` attribute in `<img>` tags).
@@ -60,7 +60,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<area>`.)
 
-5. `<article>` (Article):
+## 5. `<article>` (Article):
    - Description: The `<article>` tag defines an independent piece of content that can stand alone and be reused in different contexts.
    - Attributes: None
    - Use Cases: Grouping together content such as blog posts, news articles, forum posts, etc.
@@ -73,7 +73,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<article>`.)
 
-6. `<aside>` (Sidebar Content):
+## 6. `<aside>` (Sidebar Content):
    - Description: The `<aside>` tag defines content that is tangentially related to the main content, often presented as a sidebar.
    - Attributes: None
    - Use Cases: Displaying related content, advertisements, or supplementary information alongside the main content.
@@ -89,7 +89,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<aside>`.)
 
-7. `<audio>` (Audio Player):
+## 7. `<audio>` (Audio Player):
    - Description: The `<audio>` tag embeds audio content in a webpage, allowing users to play audio files directly within the browser.
    - Attributes:
      - `autoplay`: Specifies that the audio will start playing automatically when loaded.
@@ -108,7 +108,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<audio>`.)
 
-8. `<b>` (Bold Text):
+## 8. `<b>` (Bold Text):
    - Description: The `<b>` tag defines text as bold, providing emphasis without implying any extra importance.
    - Attributes: None
    - Use Cases: Highlighting keywords, terms, or phrases within a paragraph or heading.
@@ -119,7 +119,7 @@
    - CSS Attributes and Effects:
      - `font-weight`: Sets the weight (boldness) of the text.
 
-9. `<base>` (Document Base URL):
+## 9. `<base>` (Document Base URL):
    - Description: The `<base>` tag specifies the base URL and target for all relative URLs in a document.
    - Attributes:
      - `href`: Specifies the base URL (e.g., `href="https://example.com"`).
@@ -133,7 +133,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<base>`.)
 
-10. `<bdi>` (Bi-Directional Isolation):
+## 10. `<bdi>` (Bi-Directional Isolation):
     - Description: The `<bdi>` tag isolates a span of text that might be formatted in a different direction from the surrounding text.
     - Attributes: None
     - Use Cases: Displaying text that's formatted in a different direction (such as right-to-left) within a document that's predominantly left-to-right, ensuring correct rendering.
@@ -143,7 +143,7 @@
       ```
     - CSS Attributes and Effects: (No specific CSS attributes for `<bdi>`.)
 
-11. `<bdo>` (Bi-Directional Override):
+## 11. `<bdo>` (Bi-Directional Override):
    - Description: The `<bdo>` tag overrides the default directionality of text, allowing you to specify whether the text should be displayed from left to right or right to left.
    - Attributes:
      - `dir`: Specifies the text directionality (e.g., `dir="rtl"` for right-to-left, `dir="ltr"` for left-to-right).
@@ -154,7 +154,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<bdo>`.)
 
-12. `<blockquote>` (Block Quotation):
+## 12. `<blockquote>` (Block Quotation):
    - Description: The `<blockquote>` tag defines a block of quoted text, typically indented and styled differently from the surrounding text.
    - Attributes:
      - `cite`: Specifies the source of the quoted text.
@@ -167,7 +167,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<blockquote>`.)
 
-13. `<body>` (Document Body):
+## 13. `<body>` (Document Body):
    - Description: The `<body>` tag defines the main content of an HTML document, including text, images, links, etc.
    - Attributes: None
    - Use Cases: Enclosing all visible content within an HTML document.
@@ -186,7 +186,7 @@
      - `margin`: Sets the margins around the document content.
      - `padding`: Sets the padding around the document content.
 
-14. `<br>` (Line Break):
+## 14. `<br>` (Line Break):
    - Description: The `<br>` tag inserts a single line break within text content.
    - Attributes: None
    - Use Cases: Forcing a line break within a paragraph or line of text.
@@ -196,7 +196,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<br>`.)
 
-15. `<button>` (Button):
+## 15. `<button>` (Button):
    - Description: The `<button>` tag defines a clickable button, which can be used to trigger actions or submit forms.
    - Attributes:
      - `autofocus`: Specifies that the button should automatically receive focus when the page loads.
@@ -217,7 +217,7 @@
      - `border`: Sets the border around the button.
      - `cursor`: Sets the cursor style when hovering over the button.
 
-16. `<canvas>` (Drawing Area):
+## 16. `<canvas>` (Drawing Area):
    - Description: The `<canvas>` tag provides a drawing surface for graphics and animations using JavaScript.
    - Attributes:
      - `height`: Specifies the height of the canvas.
@@ -229,7 +229,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<canvas>`.)
 
-17. `<caption>` (Table Caption):
+## 17. `<caption>` (Table Caption):
    - Description: The `<caption>` tag defines a caption for a `<table>` element, providing a title or description for the table.
    - Attributes: None
    - Use Cases: Providing context or summary information for a table.
@@ -249,7 +249,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<caption>`.)
 
-18. `<cite>` (Citation):
+## 18. `<cite>` (Citation):
    - Description: The `<cite>` tag defines the title of a creative work, such as a book, movie, or song.
    - Attributes: None
    - Use Cases: Referencing the title of a work within text.
@@ -259,7 +259,7 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<cite>`.)
 
-19. `<code>` (Code):
+## 19. `<code>` (Code):
    - Description: The `<code>` tag defines a piece of computer code, typically displayed in a monospaced font.
    - Attributes: None
    - Use Cases: Displaying code snippets within text or documentation.
@@ -271,7 +271,7 @@
      - `font-family`: Sets the font family for code text.
      - `background-color`: Sets the background color behind code text.
 
-20. `<col>` (Table Column):
+## 20. `<col>` (Table Column):
    - Description: The `<col>` tag defines properties for a column within a `<table>` element.
    - Attributes:
      - `span`: Specifies the number of columns the `<col>` element should span.
@@ -291,3 +291,289 @@
      </table>
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<col>`.)
+
+## 21. `<colgroup>` (Table Column Group):
+   - Description: The `<colgroup>` tag groups together a set of `<col>` elements to apply properties to multiple columns in a table simultaneously.
+   - Attributes: None
+   - Use Cases: Defining common properties for multiple table columns.
+   - Example:
+     ```html
+     <table>
+       <colgroup>
+         <col style="background-color: lightblue">
+         <col style="background-color: lightgreen">
+       </colgroup>
+       <tr>
+         <td>Column 1</td>
+         <td>Column 2</td>
+       </tr>
+     </table>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<colgroup>`.)
+
+## 22. `<data>` (Data Value):
+   - Description: The `<data>` tag provides a machine-readable value within a document, often used for numerical or quantitative data.
+   - Attributes:
+     - `value`: Specifies the value of the data.
+   - Use Cases: Marking up numerical data for machine processing or styling.
+   - Example:
+     ```html
+     <p>The population of <data value="328200000">the United States</data> is approximately 328,200,000.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<data>`.)
+
+## 23. `<datalist>` (Pre-defined Options for Input):
+   - Description: The `<datalist>` tag provides a list of predefined options for an `<input>` element, allowing users to select from a list while still permitting freeform input.
+   - Attributes: None
+   - Use Cases: Providing autocomplete suggestions or pre-defined options for user input fields.
+   - Example:
+     ```html
+     <label for="browser">Choose a browser:</label>
+     <input list="browsers" id="browser" name="browser">
+     <datalist id="browsers">
+       <option value="Chrome">
+       <option value="Firefox">
+       <option value="Safari">
+       <option value="Edge">
+       <option value="Opera">
+     </datalist>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<datalist>`.)
+
+## 24. `<dd>` (Description List Definition):
+   - Description: The `<dd>` tag defines the description of a term in a description list (`<dl>`).
+   - Attributes: None
+   - Use Cases: Displaying the definition or description of a term within a definition list.
+   - Example:
+     ```html
+     <dl>
+       <dt>HTML</dt>
+       <dd>HyperText Markup Language</dd>
+       <dt>CSS</dt>
+       <dd>Cascading Style Sheets</dd>
+     </dl>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<dd>`.)
+
+## 25. `<del>` (Deleted Text):
+   - Description: The `<del>` tag defines text that has been deleted or removed from a document.
+   - Attributes:
+     - `cite`: Specifies the URL of the document that explains the reason for the deletion.
+     - `datetime`: Specifies the date and time when the deletion occurred.
+   - Use Cases: Indicating removed or deleted content, often used in conjunction with `<ins>` to show modifications.
+   - Example:
+     ```html
+     <p>This text is <del>no longer relevant</del> <ins>now important</ins>.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `text-decoration`: Sets the decoration for deleted text (e.g., `line-through`).
+
+## 26. `<details>` (Disclosure Widget):
+   - Description: The `<details>` tag creates a disclosure widget that can be toggled open or closed to reveal additional content.
+   - Attributes: None
+   - Use Cases: Creating collapsible sections of content, such as FAQs or content sections with optional details.
+   - Example:
+     ```html
+     <details>
+       <summary>Click to reveal more</summary>
+       <p>Additional content goes here...</p>
+     </details>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<details>`.)
+
+## 27. `<dfn>` (Definition Term):
+   - Description: The `<dfn>` tag defines a term that is being defined within a document, typically used in glossaries or dictionaries.
+   - Attributes: None
+   - Use Cases: Marking up terms that are being defined within a document.
+   - Example:
+     ```html
+     <p>The <dfn>Internet</dfn> is a global network of interconnected computers.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<dfn>`.)
+
+## 28. `<dialog>` (Dialog Box):
+   - Description: The `<dialog>` tag defines a dialog box or modal window within a document, typically used for interactions that require user attention or input.
+   - Attributes:
+     - `open`: Specifies that the dialog box should be open by default.
+   - Use Cases: Creating modal dialogs for user interactions, such as confirmations or form submissions.
+   - Example:
+     ```html
+     <dialog open>
+       <p>This is a dialog box.</p>
+       <button>Close</button>
+     </dialog>
+     ```
+   - CSS Attributes
+
+ and Effects: (No specific CSS attributes for `<dialog>`.)
+
+## 29. `<div>` (Division):
+   - Description: The `<div>` tag defines a generic container or division within a document, often used for grouping and styling purposes.
+   - Attributes: None
+   - Use Cases: Grouping together content for styling or layout purposes, creating sections or containers within a webpage.
+   - Example:
+     ```html
+     <div>
+       <h1>Section Heading</h1>
+       <p>This is some content within a division.</p>
+     </div>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<div>`.)
+
+## 30. `<dl>` (Description List):
+   - Description: The `<dl>` tag defines a description list, which consists of terms (`<dt>`) and their associated descriptions (`<dd>`).
+   - Attributes: None
+   - Use Cases: Creating glossaries, dictionaries, or other lists where terms are defined with associated descriptions.
+   - Example:
+     ```html
+     <dl>
+       <dt>HTML</dt>
+       <dd>HyperText Markup Language</dd>
+       <dt>CSS</dt>
+       <dd>Cascading Style Sheets</dd>
+     </dl>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<dl>`.)
+
+## 31. `<dt>` (Description List Term):
+   - Description: The `<dt>` tag defines a term or name in a description list (`<dl>`).
+   - Attributes: None
+   - Use Cases: Marking up terms or names in a definition list.
+   - Example:
+     ```html
+     <dl>
+       <dt>HTML</dt>
+       <dd>HyperText Markup Language</dd>
+       <dt>CSS</dt>
+       <dd>Cascading Style Sheets</dd>
+     </dl>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<dt>`.)
+
+## 32. `<em>` (Emphasis):
+   - Description: The `<em>` tag defines text that should be emphasized, typically rendered in italics by default.
+   - Attributes: None
+   - Use Cases: Emphasizing text within a sentence or paragraph to convey stress or importance.
+   - Example:
+     ```html
+     <p>This is <em>important</em> information.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `font-style`: Sets the style of the emphasized text (e.g., `italic`).
+
+## 33. `<embed>` (Embedded Content):
+   - Description: The `<embed>` tag embeds external content such as multimedia (e.g., audio, video, or interactive content) directly into an HTML document.
+   - Attributes:
+     - `src`: Specifies the URL of the embedded content.
+     - `type`: Specifies the MIME type of the embedded content.
+   - Use Cases: Embedding multimedia content like videos or interactive applications.
+   - Example:
+     ```html
+     <embed src="video.mp4" type="video/mp4">
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<embed>`.)
+
+## 34. `<fieldset>` (Field Set):
+   - Description: The `<fieldset>` tag groups related form elements together and creates a visual container for them, often with a border and optional legend.
+   - Attributes: None
+   - Use Cases: Grouping form controls together for better organization and styling.
+   - Example:
+     ```html
+     <fieldset>
+       <legend>Personal Information</legend>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name"><br>
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email">
+     </fieldset>
+     ```
+   - CSS Attributes and Effects:
+     - `border`: Sets the border around the fieldset.
+     - `padding`: Sets the padding inside the fieldset.
+
+## 35. `<figcaption>` (Figure Caption):
+   - Description: The `<figcaption>` tag defines a caption or title for a `<figure>` element, providing a description or context for the content within the figure.
+   - Attributes: None
+   - Use Cases: Providing captions or descriptions for images, illustrations, diagrams, etc.
+   - Example:
+     ```html
+     <figure>
+       <img src="example.jpg" alt="Example">
+       <figcaption>This is an example image.</figcaption>
+     </figure>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<figcaption>`.)
+
+## 36. `<figure>` (Figure):
+   - Description: The `<figure>` tag encapsulates self-contained content like images, illustrations, diagrams, or code snippets, along with an optional `<figcaption>`.
+   - Attributes: None
+   - Use Cases: Wrapping images or illustrations with related captions or descriptions.
+   - Example:
+     ```html
+     <figure>
+       <img src="example.jpg" alt="Example">
+       <figcaption>This is an example image.</figcaption>
+     </figure>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<figure>`.)
+
+## 37. `<footer>` (Footer):
+   - Description: The `<footer>` tag defines the footer section of a document or a section within a document, typically containing metadata, copyright information, or navigation links.
+   - Attributes: None
+   - Use Cases: Adding footer content to the bottom of a webpage or a specific section within a webpage.
+   - Example:
+     ```html
+     <footer>
+       <p>&copy; 2024 Example Company</p>
+     </footer>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<footer>`.)
+
+## 38. `<form>` (Form):
+   - Description: The `<form>` tag creates an interactive form for collecting user input, which can be submitted to a server for processing.
+   - Attributes:
+     - `action`: Specifies the URL where the form data should be submitted.
+     - `method`: Specifies the HTTP method to be used when submitting the form (e.g., `GET`, `POST`).
+   - Use Cases: Creating various types of input forms for user interaction and data submission.
+   - Example:
+     ```html
+     <form action="/submit-form" method="post">
+       <label for="username">Username:</label>
+       <input type="text" id="username" name="username">
+       <button type="submit">Submit</button>
+     </form>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<form>`.)
+
+## 39. `<h1>` to `<h6>` (Headings):
+   - Description: The `<h1>` to `<h6>` tags define headings of different levels, where `<h1>` is the highest and `<h6>` is the lowest level heading.
+   - Attributes: None
+   - Use Cases: Structuring the content hierarchy and providing semantic meaning to different sections of a webpage.
+   - Example:
+     ```html
+     <h1>Main
+
+ Heading</h1>
+     <h2>Subheading</h2>
+     <h3>Sub-subheading</h3>
+     ```
+   - CSS Attributes and Effects:
+     - `font-size`: Sets the size of the heading text.
+     - `font-weight`: Sets the weight (boldness) of the heading text.
+     - `margin`: Sets the margins around the heading text.
+
+## 40.  `<head>` (Document Head):
+   - Description: The `<head>` tag contains metadata and links to external resources that are essential for the document, such as `<title>`, `<meta>`, `<link>`, and `<script>` tags.
+   - Attributes: None
+   - Use Cases: Specifying metadata, linking to external resources, and providing instructions for the browser.
+   - Example:
+     ```html
+     <head>
+       <title>Document Title</title>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="styles.css">
+       <script src="script.js" defer></script>
+     </head>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<head>`.)
+
