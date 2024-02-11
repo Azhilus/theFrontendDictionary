@@ -17,7 +17,7 @@
      - `color`: Changes the color of the link text.
      - `text-decoration`: Specifies the decoration added to the link text (e.g., `underline`, `none`).
      - `font-weight`: Sets the weight (boldness) of the link text.
-
+<br><br/>
 ## 2. `<abbr>` (Abbreviation):
    - **Description**: The `<abbr>` tag defines an abbreviation or an acronym, providing a tooltip with the full form when hovered over.
    - **Attributes**:
@@ -28,6 +28,7 @@
      <abbr title="World Health Organization">WHO</abbr>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<abbr>`.)
+<br><br/>
 
 ## 3. `<address>` (Contact Information):
    - **Description**: The `<address>` tag defines contact information for the author or owner of a document.
@@ -43,7 +44,7 @@
      </address>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<address>`.)
-
+<br><br/>
 ## 4. `<area>` (Image Map Region):
    - **Description**: The `<area>` tag defines a clickable area within an image map, usually used alongside `<map>` to define clickable regions on an image.
    - **Attributes**:
@@ -63,7 +64,7 @@
      </map>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<area>`.)
-
+<br><br/>
 ## 5. `<article>` (Article):
    - **Description**: The `<article>` tag defines an independent piece of content that can stand alone and be reused in different contexts.
    - **Attributes**: None
@@ -76,7 +77,7 @@
      </article>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<article>`.)
-
+<br><br/>
 ## 6. `<aside>` (Sidebar Content):
    - **Description**: The `<aside>` tag defines content that is tangentially related to the main content, often presented as a sidebar.
    - **Attributes**: None
@@ -92,7 +93,7 @@
      </aside>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<aside>`.)
-
+<br><br/>
 ## 7. `<audio>` (Audio Player):
    - **Description**: The `<audio>` tag embeds audio content in a webpage, allowing users to play audio files directly within the browser.
    - **Attributes**:
@@ -111,7 +112,7 @@
      </audio>
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<audio>`.)
-
+<br><br/>
 ## 8. `<b>` (Bold Text):
    - **Description**: The `<b>` tag defines text as bold, providing emphasis without implying any extra importance.
    - **Attributes**: None
