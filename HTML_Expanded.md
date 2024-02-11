@@ -131,39 +131,37 @@
    - **Use Cases**: Setting a common base URL for all relative links and forms within a document.
    - **Example**:
      ```html
-     <base href="https://example.com/"
-
- target="_blank">
+     <base href="https://example.com/"target="_blank">
      ```
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<base>`.)
 
 ## 10. `<bdi>` (Bi-Directional Isolation):
-    - Description: The `<bdi>` tag isolates a span of text that might be formatted in a different direction from the surrounding text.
-    - Attributes: None
-    - Use Cases: Displaying text that's formatted in a different direction (such as right-to-left) within a document that's predominantly left-to-right, ensuring correct rendering.
-    - Example:
+   - **Description**: The `<bdi>` tag isolates a span of text that might be formatted in a different direction from the surrounding text.
+   - **Attributes**: None
+   - **Use Cases**: Displaying text that's formatted in a different direction (such as right-to-left) within a document that's predominantly left-to-right, ensuring correct rendering.
+   - **Example**:
       ```html
-      <p>Welcome to our website. Your username is: <bdi>مرحبا</bdi></p>
-      ```
-    - CSS Attributes and Effects: (No specific CSS attributes for `<bdi>`.)
-
+      <p>Welcome to our website. Your username is: <bdi>مرحبا</bdi></p>```
+      
+   - CSS Attributes and Effects: (No specific CSS attributes for `<bdi>`.)
+    
 ## 11. `<bdo>` (Bi-Directional Override):
-   - Description: The `<bdo>` tag overrides the default directionality of text, allowing you to specify whether the text should be displayed from left to right or right to left.
-   - Attributes:
+   - **Description**: The `<bdo>` tag overrides the default directionality of text, allowing you to specify whether the text should be displayed from left to right or right to left.
+   - **Attributes**:
      - `dir`: Specifies the text directionality (e.g., `dir="rtl"` for right-to-left, `dir="ltr"` for left-to-right).
-   - Use Cases: Forcing the directionality of text within a document.
-   - Example:
+   - **Use Cases**: Forcing the directionality of text within a document.
+   - **Example**:
      ```html
      <p><bdo dir="rtl">مرحبا</bdo> Hello</p>
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<bdo>`.)
 
 ## 12. `<blockquote>` (Block Quotation):
-   - Description: The `<blockquote>` tag defines a block of quoted text, typically indented and styled differently from the surrounding text.
-   - Attributes:
+   - **Description**: The `<blockquote>` tag defines a block of quoted text, typically indented and styled differently from the surrounding text.
+   - **Attributes**:
      - `cite`: Specifies the source of the quoted text.
-   - Use Cases: Quoting longer passages from external sources.
-   - Example:
+   - **Use Cases**: Quoting longer passages from external sources.
+   - **Example**:
      ```html
      <blockquote cite="https://example.com/quote">
        This is a blockquote.
@@ -172,10 +170,10 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<blockquote>`.)
 
 ## 13. `<body>` (Document Body):
-   - Description: The `<body>` tag defines the main content of an HTML document, including text, images, links, etc.
-   - Attributes: None
-   - Use Cases: Enclosing all visible content within an HTML document.
-   - Example:
+   - **Description**: The `<body>` tag defines the main content of an HTML document, including text, images, links, etc.
+   - **Attributes**: None
+   - **Use Cases**: Enclosing all visible content within an HTML document.
+   - **Example**:
      ```html
      <body>
        <h1>Hello, world!</h1>
@@ -191,26 +189,26 @@
      - `padding`: Sets the padding around the document content.
 
 ## 14. `<br>` (Line Break):
-   - Description: The `<br>` tag inserts a single line break within text content.
-   - Attributes: None
-   - Use Cases: Forcing a line break within a paragraph or line of text.
-   - Example:
+   - **Description**: The `<br>` tag inserts a single line break within text content.
+   - **Attributes**: None
+   - **Use Cases**: Forcing a line break within a paragraph or line of text.
+   - **Example**:
      ```html
      <p>This is<br>a line break.</p>
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<br>`.)
 
 ## 15. `<button>` (Button):
-   - Description: The `<button>` tag defines a clickable button, which can be used to trigger actions or submit forms.
-   - Attributes:
+   - **Description**: The `<button>` tag defines a clickable button, which can be used to trigger actions or submit forms.
+   - **Attributes**:
      - `autofocus`: Specifies that the button should automatically receive focus when the page loads.
      - `disabled`: Specifies that the button is disabled.
      - `form`: Specifies the form the button belongs to.
      - `name`: Specifies the name of the button.
      - `type`: Specifies the type of button (e.g., `submit`, `reset`, `button`).
      - `value`: Specifies the value of the button (used with form submission).
-   - Use Cases: Creating interactive buttons for form submission or other actions.
-   - Example:
+   - **Use Cases**: Creating interactive buttons for form submission or other actions.
+   - **Example**:
      ```html
      <button type="button">Click me</button>
      ```
@@ -222,22 +220,22 @@
      - `cursor`: Sets the cursor style when hovering over the button.
 
 ## 16. `<canvas>` (Drawing Area):
-   - Description: The `<canvas>` tag provides a drawing surface for graphics and animations using JavaScript.
-   - Attributes:
+   - **Description**: The `<canvas>` tag provides a drawing surface for graphics and animations using JavaScript.
+   - **Attributes**:
      - `height`: Specifies the height of the canvas.
      - `width`: Specifies the width of the canvas.
-   - Use Cases: Drawing charts, diagrams, animations, or interactive graphics.
-   - Example:
+   - **Use Cases**: Drawing charts, diagrams, animations, or interactive graphics.
+   - **Example**:
      ```html
      <canvas id="myCanvas" width="200" height="100"></canvas>
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<canvas>`.)
 
 ## 17. `<caption>` (Table Caption):
-   - Description: The `<caption>` tag defines a caption for a `<table>` element, providing a title or description for the table.
-   - Attributes: None
-   - Use Cases: Providing context or summary information for a table.
-   - Example:
+   - **Description**: The `<caption>` tag defines a caption for a `<table>` element, providing a title or description for the table.
+   - **Attributes**: None
+   - **Use Cases**: Providing context or summary information for a table.
+   - **Example**:
      ```html
      <table>
        <caption>Monthly Sales Report</caption>
