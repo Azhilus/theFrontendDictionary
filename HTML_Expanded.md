@@ -1,35 +1,35 @@
 ## 1. `<a>` (Anchor):
-   - Description: The `<a>` tag defines a hyperlink, which is used to link one webpage to another or link to specific parts within the same webpage.
-   - Attributes:
+   - **Description**: The `<a>` tag defines a hyperlink, which is used to link one webpage to another or link to specific parts within the same webpage.
+   - **Attributes**:
      - `href`: Specifies the URL of the linked page or the location within the same page (e.g., `href="https://example.com"`).
      - `target`: Specifies where to open the linked document (e.g., `_blank`, `_self`, `_parent`, `_top`).
      - `title`: Provides additional information about the linked document (e.g., `title="Visit Example"`).
-   - Use Cases: Creating navigation menus, linking to external or internal pages, creating buttons or images with clickable behavior.
-   - Example:
+   - **Use Cases**: Creating navigation menus, linking to external or internal pages, creating buttons or images with clickable behavior.
+   - **Example**:
      ```html
      <a href="https://example.com" target="_blank" title="Visit Example">Visit Example</a>
      ```
-   - CSS Attributes and Effects:
+   - *CSS Attributes and Effects*:
      - `color`: Changes the color of the link text.
      - `text-decoration`: Specifies the decoration added to the link text (e.g., `underline`, `none`).
      - `font-weight`: Sets the weight (boldness) of the link text.
 
 ## 2. `<abbr>` (Abbreviation):
-   - Description: The `<abbr>` tag defines an abbreviation or an acronym, providing a tooltip with the full form when hovered over.
-   - Attributes:
+   - **Description**: The `<abbr>` tag defines an abbreviation or an acronym, providing a tooltip with the full form when hovered over.
+   - **Attributes**:
      - `title`: Specifies the full form of the abbreviation (e.g., `title="World Health Organization"`).
-   - Use Cases: Displaying shortened forms of lengthy terms while providing a tooltip for clarification.
-   - Example:
+   - **Use Cases**: Displaying shortened forms of lengthy terms while providing a tooltip for clarification.
+   - **Example**:
      ```html
      <abbr title="World Health Organization">WHO</abbr>
      ```
-   - CSS Attributes and Effects: (No specific CSS attributes for `<abbr>`.)
+   - *CSS Attributes and Effects*: (No specific CSS attributes for `<abbr>`.)
 
 ## 3. `<address>` (Contact Information):
-   - Description: The `<address>` tag defines contact information for the author or owner of a document.
-   - Attributes: None
-   - Use Cases: Displaying contact information like postal address, email, or phone number.
-   - Example:
+   - **Description**: The `<address>` tag defines contact information for the author or owner of a document.
+   - **Attributes**: None
+   - **Use Cases**: Displaying contact information like postal address, email, or phone number.
+   - **Example**:
      ```html
      <address>
        John Doe<br>
@@ -38,18 +38,18 @@
        Email: <a href="mailto:john@example.com">john@example.com</a>
      </address>
      ```
-   - CSS Attributes and Effects: (No specific CSS attributes for `<address>`.)
+   - *CSS Attributes and Effects*: (No specific CSS attributes for `<address>`.)
 
 ## 4. `<area>` (Image Map Region):
-   - Description: The `<area>` tag defines a clickable area within an image map, usually used alongside `<map>` to define clickable regions on an image.
-   - Attributes:
+   - **Description**: The `<area>` tag defines a clickable area within an image map, usually used alongside `<map>` to define clickable regions on an image.
+   - **Attributes**:
      - `alt`: Specifies an alternative text for the area (similar to the `alt` attribute in `<img>` tags).
      - `coords`: Specifies the coordinates of the clickable area.
      - `href`: Specifies the URL of the linked document or the location within the same page.
      - `shape`: Specifies the shape of the clickable area (e.g., `rect`, `circle`, `poly`).
      - `target`: Specifies where to open the linked document.
-   - Use Cases: Creating clickable regions on an image to navigate to different pages or sections within a webpage.
-   - Example:
+   - **Use Cases**: Creating clickable regions on an image to navigate to different pages or sections within a webpage.
+   - **Example**:
      ```html
      <img src="planets.jpg" alt="Planets" usemap="#planetmap">
      <map name="planetmap">
@@ -58,26 +58,26 @@
        <area shape="circle" coords="124,58,8" href="venus.html" alt="Venus">
      </map>
      ```
-   - CSS Attributes and Effects: (No specific CSS attributes for `<area>`.)
+   - *CSS Attributes and Effects*: (No specific CSS attributes for `<area>`.)
 
 ## 5. `<article>` (Article):
-   - Description: The `<article>` tag defines an independent piece of content that can stand alone and be reused in different contexts.
-   - Attributes: None
-   - Use Cases: Grouping together content such as blog posts, news articles, forum posts, etc.
-   - Example:
+   - **Description**: The `<article>` tag defines an independent piece of content that can stand alone and be reused in different contexts.
+   - **Attributes**: None
+   - **Use Cases**: Grouping together content such as blog posts, news articles, forum posts, etc.
+   - **Example**:
      ```html
      <article>
        <h2>Article Title</h2>
        <p>Article content goes here...</p>
      </article>
      ```
-   - CSS Attributes and Effects: (No specific CSS attributes for `<article>`.)
+   - *CSS Attributes and Effects*: (No specific CSS attributes for `<article>`.)
 
 ## 6. `<aside>` (Sidebar Content):
-   - Description: The `<aside>` tag defines content that is tangentially related to the main content, often presented as a sidebar.
-   - Attributes: None
-   - Use Cases: Displaying related content, advertisements, or supplementary information alongside the main content.
-   - Example:
+   - **Description**: The `<aside>` tag defines content that is tangentially related to the main content, often presented as a sidebar.
+   - **Attributes**: None
+   - **Use Cases**: Displaying related content, advertisements, or supplementary information alongside the main content.
+   - **Example**:
      ```html
      <aside>
        <h3>Related Links</h3>
@@ -87,51 +87,51 @@
        </ul>
      </aside>
      ```
-   - CSS Attributes and Effects: (No specific CSS attributes for `<aside>`.)
+   - *CSS Attributes and Effects*: (No specific CSS attributes for `<aside>`.)
 
 ## 7. `<audio>` (Audio Player):
-   - Description: The `<audio>` tag embeds audio content in a webpage, allowing users to play audio files directly within the browser.
-   - Attributes:
+   - **Description**: The `<audio>` tag embeds audio content in a webpage, allowing users to play audio files directly within the browser.
+   - **Attributes**:
      - `autoplay`: Specifies that the audio will start playing automatically when loaded.
      - `controls`: Specifies that audio controls (play, pause, volume, etc.) should be displayed.
      - `loop`: Specifies that the audio should start over again when finished.
      - `muted`: Specifies that the audio should be muted by default.
      - `preload`: Specifies how the audio should be loaded when the page loads.
      - `src`: Specifies the URL of the audio file.
-   - Use Cases: Embedding background music, podcast episodes, or sound effects on a webpage.
-   - Example:
+   - **Use Cases**: Embedding background music, podcast episodes, or sound effects on a webpage.
+   - **Example**:
      ```html
      <audio controls>
        <source src="audio.mp3" type="audio/mpeg">
        Your browser does not support the audio element.
      </audio>
      ```
-   - CSS Attributes and Effects: (No specific CSS attributes for `<audio>`.)
+   - *CSS Attributes and Effects*: (No specific CSS attributes for `<audio>`.)
 
 ## 8. `<b>` (Bold Text):
-   - Description: The `<b>` tag defines text as bold, providing emphasis without implying any extra importance.
-   - Attributes: None
-   - Use Cases: Highlighting keywords, terms, or phrases within a paragraph or heading.
-   - Example:
+   - **Description**: The `<b>` tag defines text as bold, providing emphasis without implying any extra importance.
+   - **Attributes**: None
+   - **Use Cases**: Highlighting keywords, terms, or phrases within a paragraph or heading.
+   - **Example**:
      ```html
      <p>This is <b>bold</b> text.</p>
      ```
-   - CSS Attributes and Effects:
+   - *CSS Attributes and Effects*:
      - `font-weight`: Sets the weight (boldness) of the text.
 
 ## 9. `<base>` (Document Base URL):
-   - Description: The `<base>` tag specifies the base URL and target for all relative URLs in a document.
-   - Attributes:
+   - **Description**: The `<base>` tag specifies the base URL and target for all relative URLs in a document.
+   - **Attributes**:
      - `href`: Specifies the base URL (e.g., `href="https://example.com"`).
      - `target`: Specifies the default target for all hyperlinks and forms in the document.
-   - Use Cases: Setting a common base URL for all relative links and forms within a document.
-   - Example:
+   - **Use Cases**: Setting a common base URL for all relative links and forms within a document.
+   - **Example**:
      ```html
      <base href="https://example.com/"
 
  target="_blank">
      ```
-   - CSS Attributes and Effects: (No specific CSS attributes for `<base>`.)
+   - *CSS Attributes and Effects*: (No specific CSS attributes for `<base>`.)
 
 ## 10. `<bdi>` (Bi-Directional Isolation):
     - Description: The `<bdi>` tag isolates a span of text that might be formatted in a different direction from the surrounding text.
