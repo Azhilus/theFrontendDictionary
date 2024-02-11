@@ -715,3 +715,752 @@
      <input type="text" id="username" name="username">
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<label>`.)
+
+## 51. `<legend>` (Field Set Legend):
+   - Description: The `<legend>` tag defines a caption for the `<fieldset>` element, providing a title or description for the group of related form elements.
+   - Attributes: None
+   - Use Cases: Providing a descriptive title for a group of form controls within a fieldset.
+   - Example:
+     ```html
+     <fieldset>
+       <legend>Shipping Information</legend>
+       <!-- Form elements go here -->
+     </fieldset>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<legend>`.)
+
+## 52. `<li>` (List Item):
+   - Description: The `<li>` tag defines a single item in a list (`<ul>`, `<ol>`, or `<menu>`).
+   - Attributes: None
+   - Use Cases: Creating items within unordered lists, ordered lists, or menus.
+   - Example:
+     ```html
+     <ul>
+       <li>Item 1</li>
+       <li>Item 2</li>
+       <li>Item 3</li>
+     </ul>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<li>`.)
+
+## 53. `<link>` (External Resource Link):
+   - Description: The `<link>` tag defines a relationship between the current document and an external resource, typically used to link stylesheets, icons, or alternate versions of the document.
+   - Attributes:
+     - `rel`: Specifies the relationship between the current document and the linked resource.
+     - `href`: Specifies the URL of the linked resource.
+   - Use Cases: Linking external resources such as stylesheets or icon files.
+   - Example:
+     ```html
+     <link rel="stylesheet" href="styles.css">
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<link>`.)
+
+## 54. `<main>` (Main Content):
+   - Description: The `<main>` tag defines the main content area of a document, representing the primary content of the document.
+   - Attributes: None
+   - Use Cases: Wrapping the primary content of a webpage or a specific section within a webpage.
+   - Example:
+     ```html
+     <main>
+       <h1>Main Content</h1>
+       <p>This is the main content of the webpage.</p>
+     </main>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<main>`.)
+
+## 55. `<map>` (Image Map):
+   - Description: The `<map>` tag defines a client-side image map, allowing different regions of an image to be clickable and linked to different URLs or actions.
+   - Attributes:
+     - `name`: Specifies the name of the image map, which must be referenced by the associated `<img>` tag.
+   - Use Cases: Creating clickable regions on an image, such as for navigation or image-based menus.
+   - Example:
+     ```html
+     <img src="diagram.png" alt="Diagram" usemap="#diagrammap">
+     <map name="diagrammap">
+       <area shape="rect" coords="0,0,50,50" href="page1.html">
+       <area shape="circle" coords="100,100,50" href="page2.html">
+     </map>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<map>`.)
+
+## 56. `<mark>` (Highlighted Text):
+   - Description: The `<mark>` tag defines text that should be highlighted, typically rendered with a yellow background by default.
+   - Attributes: None
+   - Use Cases: Highlighting portions of text for emphasis or special attention.
+   - Example:
+     ```html
+     <p>This is <mark>important</mark> information.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<mark>`.)
+
+## 57. `<menu>` (Menu):
+   - Description: The `<menu>` tag defines a list of commands or options, typically used to create context menus or toolbars.
+   - Attributes:
+     - `type`: Specifies the type of menu (e.g., `context`, `toolbar`).
+   - Use Cases: Creating context menus, toolbars, or lists of commands.
+   - Example:
+     ```html
+     <menu type="context">
+       <menuitem label="Cut"></menuitem>
+       <menuitem label="Copy"></menuitem>
+       <menuitem label="Paste"></menuitem>
+     </menu>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<menu>`.)
+
+## 58. `<meta>` (Metadata):
+   - Description: The `<meta>` tag provides metadata about the HTML document, such as character encoding, viewport settings, or keywords.
+   - Attributes:
+     - `name`: Specifies the type of metadata.
+     - `content`: Specifies the value of the metadata.
+   - Use Cases: Providing metadata for search engines, browsers, or social media platforms.
+   - Example:
+     ```html
+     <meta charset="UTF-8">
+     <meta name="description" content="Example description">
+     <meta name="keywords" content="HTML, CSS, JavaScript">
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<meta>`.)
+
+## 59. `<meter>` (Meter):
+   - Description: The `<meter>` tag defines a scalar measurement within a known range, such as a gauge or progress indicator.
+   - Attributes:
+     - `value`: Specifies the current value of the meter.
+     - `min`: Specifies the minimum value of the meter.
+     - `max`: Specifies the maximum value of the meter.
+   - Use Cases: Displaying measurements, progress bars, or gauges.
+   - Example:
+     ```html
+     <meter value="70" min="0" max="100">70%</meter>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<meter>`.)
+
+## 60. `<nav>` (Navigation):
+   - Description: The `<nav>` tag defines a section of navigation links, typically used to create menus, navigation bars, or lists of links.
+   - Attributes: None
+   - Use Cases: Wrapping navigation links for easy styling and accessibility.
+   - Example:
+     ```html
+     <nav>
+       <ul>
+         <li><a href="#home">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#contact">Contact</a></li>
+       </ul>
+     </nav>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<nav>`.)
+
+## 61. `<noscript>` (No Script):
+   - Description: The `<noscript>` tag defines content to be displayed if scripts are not supported or disabled in the browser.
+   - Attributes: None
+   - Use Cases: Providing alternative content or instructions for users with disabled scripts.
+   - Example:
+     ```html
+     <noscript>
+       <p>Please enable JavaScript to view this website.</p>
+     </noscript>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<noscript>`.)
+
+## 62. `<object>` (Embedded Object):
+   - Description: The `<object>` tag embeds an external resource, such as an image, audio, video, or interactive application
+
+, into an HTML document.
+   - Attributes:
+     - `data`: Specifies the URL of the external resource.
+     - `type`: Specifies the MIME type of the external resource.
+   - Use Cases: Embedding various types of content within a webpage.
+   - Example:
+     ```html
+     <object data="example.swf" type="application/x-shockwave-flash">
+       <p>Alternative content goes here...</p>
+     </object>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<object>`.)
+
+## 63. `<ol>` (Ordered List):
+   - Description: The `<ol>` tag defines an ordered list, where each list item is numbered sequentially.
+   - Attributes: None
+   - Use Cases: Creating lists where the order of items is important, such as step-by-step instructions.
+   - Example:
+     ```html
+     <ol>
+       <li>Step 1</li>
+       <li>Step 2</li>
+       <li>Step 3</li>
+     </ol>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<ol>`.)
+
+## 64. `<optgroup>` (Option Group):
+   - Description: The `<optgroup>` tag groups related `<option>` elements within a `<select>` dropdown list.
+   - Attributes:
+     - `label`: Specifies a label or heading for the optgroup.
+   - Use Cases: Organizing options within a dropdown list into logical groups.
+   - Example:
+     ```html
+     <select>
+       <optgroup label="Group 1">
+         <option value="1">Option 1</option>
+         <option value="2">Option 2</option>
+       </optgroup>
+       <optgroup label="Group 2">
+         <option value="3">Option 3</option>
+         <option value="4">Option 4</option>
+       </optgroup>
+     </select>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<optgroup>`.)
+
+## 65. `<option>` (Dropdown Option):
+   - Description: The `<option>` tag defines an option within a `<select>` dropdown list or a `<datalist>` element.
+   - Attributes:
+     - `value`: Specifies the value of the option.
+   - Use Cases: Providing selectable options within dropdown lists or datalists.
+   - Example:
+     ```html
+     <select>
+       <option value="1">Option 1</option>
+       <option value="2">Option 2</option>
+     </select>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<option>`.)
+
+## 66. `<output>` (Output):
+   - Description: The `<output>` tag represents the result of a calculation or the output of a script.
+   - Attributes:
+     - `for`: Specifies the ID of the form element that the output is related to.
+   - Use Cases: Displaying the result of a calculation within a form or the output of a script.
+   - Example:
+     ```html
+     <form oninput="result.value = parseInt(x.value) + parseInt(y.value)">
+       <input type="number" id="x" name="x" value="0">
+       + <input type="number" id="y" name="y" value="0">
+       = <output name="result" for="x y"></output>
+     </form>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<output>`.)
+
+## 67. `<p>` (Paragraph):
+   - Description: The `<p>` tag defines a paragraph of text.
+   - Attributes: None
+   - Use Cases: Wrapping blocks of text to create paragraphs.
+   - Example:
+     ```html
+     <p>This is a paragraph of text.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<p>`.)
+
+## 68. `<param>` (Object Parameter):
+   - Description: The `<param>` tag defines parameters for `<object>` elements.
+   - Attributes:
+     - `name`: Specifies the name of the parameter.
+     - `value`: Specifies the value of the parameter.
+   - Use Cases: Providing parameters for embedded objects such as plugins or applets.
+   - Example:
+     ```html
+     <object>
+       <param name="autoplay" value="true">
+     </object>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<param>`.)
+
+## 69. `<picture>` (Responsive Image):
+   - Description: The `<picture>` tag contains multiple `<source>` elements and one `<img>` element to provide responsive images based on device characteristics.
+   - Attributes: None
+   - Use Cases: Providing different image sources for different screen sizes or resolutions.
+   - Example:
+     ```html
+     <picture>
+       <source media="(min-width: 768px)" srcset="large.jpg">
+       <source media="(min-width: 320px)" srcset="small.jpg">
+       <img src="default.jpg" alt="Description">
+     </picture>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<picture>`.)
+
+## 70. `<pre>` (Preformatted Text):
+   - Description: The `<pre>` tag defines preformatted text, preserving both spaces and line breaks.
+   - Attributes: None
+   - Use Cases: Displaying code snippets, poetry, or text with specific formatting requirements.
+   - Example:
+     ```html
+     <pre>
+       This   is   preformatted
+       text
+     </pre>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<pre>`.)
+
+## 71. `<progress>` (Progress Bar):
+   - Description: The `<progress>` tag represents the progress of a task or process, typically displayed as a horizontal bar.
+   - Attributes:
+     - `value`: Specifies the current value of the progress.
+     - `max`: Specifies the maximum value of the progress.
+   - Use Cases: Displaying the progress of file uploads, form submissions, or loading processes.
+   - Example:
+     ```html
+     <progress value="50" max="100"></progress>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<progress>`.)
+
+## 72. `<q>` (Short Quotation):
+   - Description: The `<q>` tag defines a short inline quotation.
+   - Attributes:
+     - `cite`: Specifies the URL of the source of the quotation.
+   - Use Cases: Marking up inline quotations within a paragraph.
+   - Example:
+     ```html
+     <p>He said <q cite="https://example.com">Hello</q>.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<q>`.)
+
+## 73. `<rp>` (Ruby Parenthesis):
+   - Description: The `<rp>` tag provides parentheses around the ruby text in a ruby annotation.
+   - Attributes: None
+   - Use Cases: Providing parentheses for ruby text in browsers that do not support ruby annotations.
+   - Example:
+     ```html
+     <ruby>
+       漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+     </ruby>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<rp>`.)
+
+## 74. `<rt>` (Ruby Text):
+   - Description: The `<rt>` tag defines the ruby text component of a ruby annotation.
+   - Attributes: None
+   - Use Cases: Marking up the pronunciation or translation of ruby text in ruby annotations.
+   - Example:
+     ```html
+     <ruby>
+       漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+     </ruby>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<rt>`.)
+
+## 75. `<ruby>` (Ruby Annotation):
+   - Description: The `<ruby>` tag defines a ruby annotation, used for displaying pronunciation or translation of characters.
+   - Attributes: None
+   - Use Cases: Providing pronunciation guides or translations for characters, especially in East Asian typography.
+   - Example:
+     ```html
+     <ruby>
+       漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+     </ruby>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<ruby>`.)
+
+## 76. `<s>` (Strikethrough):
+   - Description: The `<s>` tag defines text that is no longer accurate or relevant, typically rendered with a strikethrough style.
+   - Attributes: None
+   - Use Cases: Indicating text that has been deleted or marked for removal.
+   - Example:
+     ```html
+     <p>This is <s>old</s> content.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `text-decoration`: Sets the decoration for strikethrough text (e.g., `line-through`).
+
+## 77. `<samp>` (Sample Output):
+   - Description: The `<samp>` tag
+
+ defines text that represents sample output or code output.
+   - Attributes: None
+   - Use Cases: Displaying sample output from code examples or simulations.
+   - Example:
+     ```html
+     <p>Sample output: <samp>Hello, world!</samp></p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<samp>`.)
+
+## 78. `<script>` (Script):
+   - Description: The `<script>` tag embeds or links to client-side scripts, such as JavaScript, within an HTML document.
+   - Attributes:
+     - `src`: Specifies the URL of an external script file.
+     - `type`: Specifies the MIME type of the script.
+   - Use Cases: Adding interactivity, dynamic behavior, or functionality to web pages.
+   - Example:
+     ```html
+     <script>
+       alert('Hello, world!');
+     </script>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<script>`.)
+
+## 79. `<section>` (Section):
+   - Description: The `<section>` tag defines a section within a document, often used for thematic grouping of content.
+   - Attributes: None
+   - Use Cases: Dividing content into distinct sections for organization and styling.
+   - Example:
+     ```html
+     <section>
+       <h2>Section Heading</h2>
+       <p>This is a section of content.</p>
+     </section>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<section>`.)
+
+## 80. `<select>` (Dropdown List):
+   - Description: The `<select>` tag creates a dropdown list from which users can select one or more options.
+   - Attributes: None
+   - Use Cases: Providing a list of selectable options within a form.
+   - Example:
+     ```html
+     <select>
+       <option value="1">Option 1</option>
+       <option value="2">Option 2</option>
+     </select>
+     ```
+   - CSS Attributes and Effects: (Styling dropdown lists can vary widely and depend on the specific browser.)
+
+## 81. `<small>` (Small Text):
+   - Description: The `<small>` tag defines small text, typically used for disclaimers, copyright notices, or fine print.
+   - Attributes: None
+   - Use Cases: Formatting text to be smaller in size.
+   - Example:
+     ```html
+     <p>This is <small>small text</small>.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<small>`.)
+
+## 82. `<source>` (Media Source):
+   - Description: The `<source>` tag specifies multiple media resources for `<audio>`, `<video>`, or `<picture>` elements, allowing the browser to choose the most suitable one.
+   - Attributes:
+     - `src`: Specifies the URL of the media resource.
+     - `type`: Specifies the MIME type of the media resource.
+   - Use Cases: Providing alternative media sources for different browsers or devices.
+   - Example:
+     ```html
+     <video controls>
+       <source src="movie.mp4" type="video/mp4">
+       <source src="movie.ogg" type="video/ogg">
+       Your browser does not support the video tag.
+     </video>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<source>`.)
+
+## 83. `<span>` (Inline Container):
+   - Description: The `<span>` tag defines an inline container for a section of text or other inline elements, allowing styling or manipulation of specific parts of the content.
+   - Attributes: None
+   - Use Cases: Applying styles or scripting to specific portions of text or inline elements.
+   - Example:
+     ```html
+     <p>This is <span style="color: red;">highlighted</span> text.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<span>`.)
+
+## 84. `<strong>` (Strong Importance):
+   - Description: The `<strong>` tag defines text with strong importance, typically rendered with bold font weight by default.
+   - Attributes: None
+   - Use Cases: Indicating text that is of strong importance or emphasis.
+   - Example:
+     ```html
+     <p>This is <strong>important</strong> information.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `font-weight`: Sets the weight (boldness) of the text.
+
+## 85. `<style>` (Style):
+   - Description: The `<style>` tag contains CSS rules for styling HTML elements within the document.
+   - Attributes:
+     - `type`: Specifies the MIME type of the style sheet language (e.g., `text/css`).
+   - Use Cases: Defining internal styles for HTML elements within the document.
+   - Example:
+     ```html
+     <style>
+       p {
+         color: blue;
+       }
+     </style>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<style>`.)
+
+## 86. `<sub>` (Subscript):
+   - Description: The `<sub>` tag defines subscripted text, typically rendered with a smaller font size and positioned below the baseline.
+   - Attributes: None
+   - Use Cases: Marking up text that should appear as a subscript.
+   - Example:
+     ```html
+     <p>This is H<sub>2</sub>O.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<sub>`.)
+
+## 87. `<summary>` (Details Summary):
+   - Description: The `<summary>` tag defines a summary or heading for the `<details>` element, which represents a disclosure widget from which the user can obtain additional information or controls.
+   - Attributes: None
+   - Use Cases: Providing a heading or summary for collapsible content sections.
+   - Example:
+     ```html
+     <details>
+       <summary>More Information</summary>
+       <p>Additional details go here...</p>
+     </details>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<summary>`.)
+
+## 88. `<sup>` (Superscript):
+   - Description: The `<sup>` tag defines superscripted text, typically rendered with a smaller font size and positioned above the baseline.
+   - Attributes: None
+   - Use Cases: Marking up text that should appear as a superscript.
+   - Example:
+     ```html
+     <p>This is 10<sup>th</sup> document.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<sup>`.)
+
+## 89. `<svg>` (Scalable Vector Graphics):
+   - Description: The `<svg>` tag embeds SVG (Scalable Vector Graphics) within an HTML document, allowing for the creation of scalable and interactive graphics.
+   - Attributes: None
+   - Use Cases: Creating vector graphics, charts, or illustrations within web pages.
+   - Example:
+     ```html
+     <svg width="100" height="100">
+       <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="red" />
+     </svg>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<svg>`.)
+
+## 90. `<table>` (Table):
+   - Description: The `<table>` tag defines an HTML table, which consists of rows (`<tr>`) containing cells (`<td>` or `<th>`).
+   - Attributes: None
+   - Use Cases: Presenting tabular data in a structured format.
+   - Example:
+     ```html
+     <table border="1">
+       <tr>
+         <th>Header 1</th>
+         <th>Header 2</th>
+       </tr>
+       <tr>
+         <td>Data 1</td>
+         <td>Data 2</td>
+       </tr>
+     </table>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<table>`.)
+
+## 91. `<tbody>` (Table Body):
+   - Description: The `<tbody>` tag groups the body content of an HTML table, containing one or more `<tr>` elements.
+   - Attributes: None
+   - Use Cases: Organizing the main body of rows within a table.
+   - Example:
+     ```html
+     <table border="1">
+       <tbody>
+         <tr>
+           <td>Data 1</td>
+           <td>Data 2</td>
+         </tr>
+       </tbody>
+     </table>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<tbody>`.)
+
+## 92. `<td>` (Table Data Cell):
+   - Description: The `<td>` tag defines a data cell within an HTML table, containing data or content.
+   - Attributes: None
+   - Use Cases: Populating individual cells within a table row.
+   - Example:
+     ```html
+     <table border="1">
+       <tr>
+         <td>Data 1</td>
+         <td>Data 2</td>
+       </tr>
+     </table>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<td>`.)
+
+## 93. `<template>` (Template):
+   - Description: The `<template>` tag holds HTML content that should not be rendered when the page is loaded, but can be cloned and inserted into the document using JavaScript.
+   - Attributes
+
+: None
+   - Use Cases: Defining reusable HTML content that can be instantiated dynamically.
+   - Example:
+     ```html
+     <template id="template">
+       <p>This is a template.</p>
+     </template>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<template>`.)
+
+## 94. `<textarea>` (Text Area):
+   - Description: The `<textarea>` tag creates a multi-line text input control, allowing users to input larger amounts of text.
+   - Attributes:
+     - `cols`: Specifies the visible width of the textarea (in characters).
+     - `rows`: Specifies the visible height of the textarea (in lines).
+   - Use Cases: Providing a text input area for longer messages or comments.
+   - Example:
+     ```html
+     <textarea cols="30" rows="5"></textarea>
+     ```
+   - CSS Attributes and Effects: (Styling text areas can vary widely and depend on the specific browser.)
+
+## 95. `<tfoot>` (Table Footer):
+   - Description: The `<tfoot>` tag groups the footer content of an HTML table, typically containing summary information or totals.
+   - Attributes: None
+   - Use Cases: Organizing the footer rows of a table.
+   - Example:
+     ```html
+     <table border="1">
+       <tfoot>
+         <tr>
+           <td>Total:</td>
+           <td>$100</td>
+         </tr>
+       </tfoot>
+     </table>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<tfoot>`.)
+
+## 96. `<th>` (Table Header Cell):
+   - Description: The `<th>` tag defines a header cell within an HTML table, typically used to label columns or rows.
+   - Attributes: 
+     - `scope`: Specifies the scope of the header cell (e.g., `col`, `row`, `colgroup`, `rowgroup`).
+   - Use Cases: Labeling table columns or rows.
+   - Example:
+     ```html
+     <table border="1">
+       <tr>
+         <th scope="col">Header 1</th>
+         <th scope="col">Header 2</th>
+       </tr>
+       <tr>
+         <td>Data 1</td>
+         <td>Data 2</td>
+       </tr>
+     </table>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<th>`.)
+
+## 97. `<thead>` (Table Header):
+   - Description: The `<thead>` tag groups the header content of an HTML table.
+   - Attributes: None
+   - Use Cases: Organizing the header rows of a table.
+   - Example:
+     ```html
+     <table border="1">
+       <thead>
+         <tr>
+           <th>Header 1</th>
+           <th>Header 2</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>Data 1</td>
+           <td>Data 2</td>
+         </tr>
+       </tbody>
+     </table>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<thead>`.)
+
+## 98. `<time>` (Time):
+   - Description: The `<time>` tag represents a specific period in time or a duration, such as a date, time, or datetime.
+   - Attributes:
+     - `datetime`: Specifies the date and time associated with the content.
+   - Use Cases: Marking up dates, times, or durations for search engines or user agents.
+   - Example:
+     ```html
+     <p>Meeting at <time datetime="2024-02-15T08:30">8:30 AM</time> in the conference room.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<time>`.)
+
+## 99. `<title>` (Title):
+   - Description: The `<title>` tag defines the title of the document, which is displayed in the browser's title bar or tab.
+   - Attributes: None
+   - Use Cases: Specifying the title of the webpage for search engines and user bookmarks.
+   - Example:
+     ```html
+     <!DOCTYPE html>
+     <html>
+     <head>
+       <title>My Website</title>
+     </head>
+     <body>
+       <!-- Content goes here -->
+     </body>
+     </html>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<title>`.)
+
+## 100. `<tr>` (Table Row):
+   - Description: The `<tr>` tag defines a row within an HTML table, containing one or more table cells (`<td>` or `<th>`).
+   - Attributes: None
+   - Use Cases: Creating rows within a table.
+   - Example:
+     ```html
+     <table border="1">
+       <tr>
+         <td>Data 1</td>
+         <td>Data 2</td>
+       </tr>
+     </table>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<tr>`.)
+
+## 101. `<track>` (Text Track):
+   - Description: The `<track>` tag specifies text tracks for `<audio>` or `<video>` elements, such as subtitles, captions, or descriptions.
+   - Attributes:
+     - `kind`: Specifies the kind of text track (e.g., `subtitles`, `captions`, `descriptions`, `chapters`, `metadata`).
+     - `src`: Specifies the URL of the text track file.
+     - `srclang`: Specifies the language of the text track content.
+   - Use Cases: Providing subtitles, captions, or descriptions for multimedia content.
+   - Example:
+     ```html
+     <video controls>
+       <source src="movie.mp4" type="video/mp4">
+       <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+     </video>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<track>`.)
+
+## 102. `<u>` (Underline):
+   - Description: The `<u>` tag defines text that should be underlined, though it's generally not recommended for indicating semantics.
+   - Attributes: None
+   - Use Cases: Rarely used due to accessibility concerns; often replaced with CSS for styling.
+   - Example:
+     ```html
+     <p>This is <u>underlined</u> text.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `text-decoration`: Sets the decoration for underlined text (e.g., `underline`).
+
+## 103. `<ul>` (Unordered List):
+   - Description: The `<ul>` tag defines an unordered list, where each list item is preceded by a bullet point.
+   - Attributes: None
+   - Use Cases: Creating lists where the order of items is not important, such as menus or itemized lists.
+   - Example:
+     ```html
+     <ul>
+       <li>Item 1</li>
+       <li>Item 2</li>
+     </ul>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<ul>`.)
+
+## 104. `<var>` (Variable):
+   - Description: The `<var>` tag defines a variable within the context of a document, typically rendered in italics.
+   - Attributes: None
+   - Use Cases: Identifying variables or placeholders within text or code.
+   - Example:
+     ```html
+     <p>The <var>x</var> variable represents the unknown value.</p>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<var>`.)
+
+## 105. `<video>` (Video):
+   - Description: The `<video>` tag embeds video content within an HTML document, providing a native way to play video files.
+   - Attributes:
+     - `src`: Specifies the URL of the video file.
+     - `controls`: Indicates whether video controls should be displayed.
+   - Use Cases: Embedding video content directly into web pages.
+   - Example:
+     ```html
+     <video src="movie.mp4" controls></video>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<video>`.)
