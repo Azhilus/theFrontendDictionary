@@ -553,9 +553,7 @@
    - Use Cases: Structuring the content hierarchy and providing semantic meaning to different sections of a webpage.
    - Example:
      ```html
-     <h1>Main
-
- Heading</h1>
+     <h1>MainHeading</h1>
      <h2>Subheading</h2>
      <h3>Sub-subheading</h3>
      ```
