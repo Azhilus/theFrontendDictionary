@@ -715,10 +715,10 @@
    - *CSS Attributes and Effects*: (No specific CSS attributes for `<label>`.)
 
 ## 51. `<legend>` (Field Set Legend):
-   - Description: The `<legend>` tag defines a caption for the `<fieldset>` element, providing a title or description for the group of related form elements.
-   - Attributes: None
-   - Use Cases: Providing a descriptive title for a group of form controls within a fieldset.
-   - Example:
+   - **Description**: The `<legend>` tag defines a caption for the `<fieldset>` element, providing a title or description for the group of related form elements.
+   - **Attributes**: None
+   - **Use Cases**: Providing a descriptive title for a group of form controls within a fieldset.
+   - **Example**:
      ```html
      <fieldset>
        <legend>Shipping Information</legend>
@@ -728,10 +728,10 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<legend>`.)
 
 ## 52. `<li>` (List Item):
-   - Description: The `<li>` tag defines a single item in a list (`<ul>`, `<ol>`, or `<menu>`).
-   - Attributes: None
-   - Use Cases: Creating items within unordered lists, ordered lists, or menus.
-   - Example:
+   - **Description**: The `<li>` tag defines a single item in a list (`<ul>`, `<ol>`, or `<menu>`).
+   - **Attributes**: None
+   - **Use Cases**: Creating items within unordered lists, ordered lists, or menus.
+   - **Example**:
      ```html
      <ul>
        <li>Item 1</li>
@@ -742,22 +742,22 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<li>`.)
 
 ## 53. `<link>` (External Resource Link):
-   - Description: The `<link>` tag defines a relationship between the current document and an external resource, typically used to link stylesheets, icons, or alternate versions of the document.
-   - Attributes:
+   - **Description**: The `<link>` tag defines a relationship between the current document and an external resource, typically used to link stylesheets, icons, or alternate versions of the document.
+   - **Attributes**:
      - `rel`: Specifies the relationship between the current document and the linked resource.
      - `href`: Specifies the URL of the linked resource.
-   - Use Cases: Linking external resources such as stylesheets or icon files.
-   - Example:
+   - **Use Cases**: Linking external resources such as stylesheets or icon files.
+   - **Example**:
      ```html
      <link rel="stylesheet" href="styles.css">
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<link>`.)
 
 ## 54. `<main>` (Main Content):
-   - Description: The `<main>` tag defines the main content area of a document, representing the primary content of the document.
-   - Attributes: None
-   - Use Cases: Wrapping the primary content of a webpage or a specific section within a webpage.
-   - Example:
+   - **Description**: The `<main>` tag defines the main content area of a document, representing the primary content of the document.
+   - **Attributes**: None
+   - **Use Cases**: Wrapping the primary content of a webpage or a specific section within a webpage.
+   - **Example**:
      ```html
      <main>
        <h1>Main Content</h1>
@@ -767,11 +767,11 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<main>`.)
 
 ## 55. `<map>` (Image Map):
-   - Description: The `<map>` tag defines a client-side image map, allowing different regions of an image to be clickable and linked to different URLs or actions.
-   - Attributes:
+   - **Description**: The `<map>` tag defines a client-side image map, allowing different regions of an image to be clickable and linked to different URLs or actions.
+   - **Attributes**:
      - `name`: Specifies the name of the image map, which must be referenced by the associated `<img>` tag.
-   - Use Cases: Creating clickable regions on an image, such as for navigation or image-based menus.
-   - Example:
+   - **Use Cases**: Creating clickable regions on an image, such as for navigation or image-based menus.
+   - **Example**:
      ```html
      <img src="diagram.png" alt="Diagram" usemap="#diagrammap">
      <map name="diagrammap">
@@ -782,21 +782,21 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<map>`.)
 
 ## 56. `<mark>` (Highlighted Text):
-   - Description: The `<mark>` tag defines text that should be highlighted, typically rendered with a yellow background by default.
-   - Attributes: None
-   - Use Cases: Highlighting portions of text for emphasis or special attention.
-   - Example:
+   - **Description**: The `<mark>` tag defines text that should be highlighted, typically rendered with a yellow background by default.
+   - **Attributes**: None
+   - **Use Cases**: Highlighting portions of text for emphasis or special attention.
+   - **Example**:
      ```html
      <p>This is <mark>important</mark> information.</p>
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<mark>`.)
 
 ## 57. `<menu>` (Menu):
-   - Description: The `<menu>` tag defines a list of commands or options, typically used to create context menus or toolbars.
-   - Attributes:
+   - **Description**: The `<menu>` tag defines a list of commands or options, typically used to create context menus or toolbars.
+   - **Attributes**:
      - `type`: Specifies the type of menu (e.g., `context`, `toolbar`).
-   - Use Cases: Creating context menus, toolbars, or lists of commands.
-   - Example:
+   - **Use Cases**: Creating context menus, toolbars, or lists of commands.
+   - **Example**:
      ```html
      <menu type="context">
        <menuitem label="Cut"></menuitem>
@@ -807,12 +807,12 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<menu>`.)
 
 ## 58. `<meta>` (Metadata):
-   - Description: The `<meta>` tag provides metadata about the HTML document, such as character encoding, viewport settings, or keywords.
-   - Attributes:
+   - **Description**: The `<meta>` tag provides metadata about the HTML document, such as character encoding, viewport settings, or keywords.
+   - **Attributes**:
      - `name`: Specifies the type of metadata.
      - `content`: Specifies the value of the metadata.
-   - Use Cases: Providing metadata for search engines, browsers, or social media platforms.
-   - Example:
+   - **Use Cases**: Providing metadata for search engines, browsers, or social media platforms.
+   - **Example**:
      ```html
      <meta charset="UTF-8">
      <meta name="description" content="Example description">
