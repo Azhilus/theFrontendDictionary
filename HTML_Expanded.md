@@ -577,3 +577,141 @@
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<head>`.)
 
+## 41. `<header>` (Header):
+   - Description: The `<header>` tag defines the header section of a document or a section within a document, typically containing introductory content, logos, navigation menus, etc.
+   - Attributes: None
+   - Use Cases: Adding header content to the top of a webpage or a specific section within a webpage.
+   - Example:
+     ```html
+     <header>
+       <h1>Website Title</h1>
+       <nav>
+         <ul>
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#contact">Contact</a></li>
+         </ul>
+       </nav>
+     </header>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<header>`.)
+
+## 42. `<hr>` (Horizontal Rule):
+   - Description: The `<hr>` tag inserts a thematic break or horizontal line within a document, typically used to separate content sections.
+   - Attributes: None
+   - Use Cases: Creating visual divisions or separators between content sections.
+   - Example:
+     ```html
+     <p>This is the first paragraph.</p>
+     <hr>
+     <p>This is the second paragraph.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `border`: Sets the style, color, and width of the horizontal rule.
+
+## 43. `<html>` (HTML Document):
+   - Description: The `<html>` tag defines the root element of an HTML document, encapsulating all other elements within the document.
+   - Attributes: None
+   - Use Cases: Wrapping all content within an HTML document.
+   - Example:
+     ```html
+     <!DOCTYPE html>
+     <html lang="en">
+       <head>
+         <meta charset="UTF-8">
+         <title>Document Title</title>
+       </head>
+       <body>
+         <p>This is the content of the document.</p>
+       </body>
+     </html>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<html>`.)
+
+## 44. `<i>` (Italic Text):
+   - Description: The `<i>` tag defines text that is set in italic style, typically used for stylistic differentiation rather than semantic emphasis.
+   - Attributes: None
+   - Use Cases: Styling text in an italic font style.
+   - Example:
+     ```html
+     <p>This is <i>italic</i> text.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `font-style`: Sets the style of the italic text.
+
+## 45. `<iframe>` (Inline Frame):
+   - Description: The `<iframe>` tag embeds another HTML document within the current document, creating a nested browsing context.
+   - Attributes:
+     - `src`: Specifies the URL of the document to embed.
+     - `width`: Specifies the width of the iframe.
+     - `height`: Specifies the height of the iframe.
+   - Use Cases: Embedding external content such as maps, videos, or web applications within a webpage.
+   - Example:
+     ```html
+     <iframe src="https://www.example.com" width="600" height="400"></iframe>
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<iframe>`.)
+
+## 46. `<img>` (Image):
+   - Description: The `<img>` tag embeds an image within a document, displaying a graphical representation.
+   - Attributes:
+     - `src`: Specifies the URL of the image.
+     - `alt`: Specifies alternative text for the image.
+     - `width`: Specifies the width of the image.
+     - `height`: Specifies the height of the image.
+   - Use Cases: Displaying images within a webpage.
+   - Example:
+     ```html
+     <img src="image.jpg" alt="Image Description" width="200" height="150">
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<img>`.)
+
+## 47. `<input>` (Input Control):
+   - Description: The `<input>` tag creates an interactive control element, such as a text field, checkbox, radio button, or button.
+   - Attributes:
+     - `type`: Specifies the type of input control (e.g., `text`, `checkbox`, `radio`, `submit`).
+     - `name`: Specifies the name of the input control.
+     - `value`: Specifies the initial value of the input control.
+   - Use Cases: Creating various types of input controls for collecting user input in forms.
+   - Example:
+     ```html
+     <input type="text" name="username" placeholder="Enter your username">
+     <input type="checkbox" name="subscribe" value="yes"> Subscribe
+     ```
+   - CSS Attributes and Effects: (Styling input controls can vary widely and depend on the specific type of control.)
+
+## 48. `<ins>` (Inserted Text):
+   - Description: The `<ins>` tag defines text that has been inserted into a document, typically rendered with an underline by default.
+   - Attributes:
+     - `cite`: Specifies the URL of the document that explains the reason for the insertion.
+     - `datetime`: Specifies the date and time when the insertion occurred.
+   - Use Cases: Indicating newly added or inserted content, often used in conjunction with `<del>` to show modifications.
+   - Example:
+     ```html
+     <p>This text is <del>no longer relevant</del> <ins>now important</ins>.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `text-decoration`: Sets the decoration for inserted text (e.g., `underline`).
+
+## 49. `<kbd>` (Keyboard Input):
+   - Description: The `<kbd>` tag defines text that represents user input from the keyboard, typically rendered in a monospaced font.
+   - Attributes: None
+   - Use Cases: Indicating keyboard input or key combinations within text.
+   - Example:
+     ```html
+     <p>To save a file, press <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
+     ```
+   - CSS Attributes and Effects:
+     - `font-family`: Sets the font family for keyboard input text.
+
+## 50. `<label>` (Form Label):
+   - Description: The `<label>` tag defines a label for an `<input>` element, providing a description or title for the input control.
+   - Attributes:
+     - `for`: Specifies which input element the label is associated with (via the input's `id` attribute).
+   - Use Cases: Associating labels with form controls for better accessibility and usability.
+   - Example:
+     ```html
+     <label for="username">Username:</label>
+     <input type="text" id="username" name="username">
+     ```
+   - CSS Attributes and Effects: (No specific CSS attributes for `<label>`.)
