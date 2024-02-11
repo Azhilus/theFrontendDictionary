@@ -438,10 +438,10 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<dl>`.)
 
 ## 31. `<dt>` (Description List Term):
-   - Description: The `<dt>` tag defines a term or name in a description list (`<dl>`).
-   - Attributes: None
-   - Use Cases: Marking up terms or names in a definition list.
-   - Example:
+   - **Description**: The `<dt>` tag defines a term or name in a description list (`<dl>`).
+   - **Attributes**: None
+   - **Use Cases**: Marking up terms or names in a definition list.
+   - **Example**:
      ```html
      <dl>
        <dt>HTML</dt>
@@ -453,10 +453,10 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<dt>`.)
 
 ## 32. `<em>` (Emphasis):
-   - Description: The `<em>` tag defines text that should be emphasized, typically rendered in italics by default.
-   - Attributes: None
-   - Use Cases: Emphasizing text within a sentence or paragraph to convey stress or importance.
-   - Example:
+   - **Description**: The `<em>` tag defines text that should be emphasized, typically rendered in italics by default.
+   - **Attributes**: None
+   - **Use Cases**: Emphasizing text within a sentence or paragraph to convey stress or importance.
+   - **Example**:
      ```html
      <p>This is <em>important</em> information.</p>
      ```
@@ -464,22 +464,22 @@
      - `font-style`: Sets the style of the emphasized text (e.g., `italic`).
 
 ## 33. `<embed>` (Embedded Content):
-   - Description: The `<embed>` tag embeds external content such as multimedia (e.g., audio, video, or interactive content) directly into an HTML document.
-   - Attributes:
+   - **Description**: The `<embed>` tag embeds external content such as multimedia (e.g., audio, video, or interactive content) directly into an HTML document.
+   - **Attributes**:
      - `src`: Specifies the URL of the embedded content.
      - `type`: Specifies the MIME type of the embedded content.
-   - Use Cases: Embedding multimedia content like videos or interactive applications.
-   - Example:
+   - **Use Cases**: Embedding multimedia content like videos or interactive applications.
+   - **Example**:
      ```html
      <embed src="video.mp4" type="video/mp4">
      ```
    - CSS Attributes and Effects: (No specific CSS attributes for `<embed>`.)
 
 ## 34. `<fieldset>` (Field Set):
-   - Description: The `<fieldset>` tag groups related form elements together and creates a visual container for them, often with a border and optional legend.
-   - Attributes: None
-   - Use Cases: Grouping form controls together for better organization and styling.
-   - Example:
+   - **Description**: The `<fieldset>` tag groups related form elements together and creates a visual container for them, often with a border and optional legend.
+   - **Attributes**: None
+   - **Use Cases**: Grouping form controls together for better organization and styling.
+   - **Example**:
      ```html
      <fieldset>
        <legend>Personal Information</legend>
@@ -494,10 +494,10 @@
      - `padding`: Sets the padding inside the fieldset.
 
 ## 35. `<figcaption>` (Figure Caption):
-   - Description: The `<figcaption>` tag defines a caption or title for a `<figure>` element, providing a description or context for the content within the figure.
-   - Attributes: None
-   - Use Cases: Providing captions or descriptions for images, illustrations, diagrams, etc.
-   - Example:
+   - **Description**: The `<figcaption>` tag defines a caption or title for a `<figure>` element, providing a description or context for the content within the figure.
+   - **Attributes**: None
+   - **Use Cases**: Providing captions or descriptions for images, illustrations, diagrams, etc.
+   - **Example**:
      ```html
      <figure>
        <img src="example.jpg" alt="Example">
@@ -507,10 +507,10 @@
    - CSS Attributes and Effects: (No specific CSS attributes for `<figcaption>`.)
 
 ## 36. `<figure>` (Figure):
-   - Description: The `<figure>` tag encapsulates self-contained content like images, illustrations, diagrams, or code snippets, along with an optional `<figcaption>`.
-   - Attributes: None
-   - Use Cases: Wrapping images or illustrations with related captions or descriptions.
-   - Example:
+   - **Description**: The `<figure>` tag encapsulates self-contained content like images, illustrations, diagrams, or code snippets, along with an optional `<figcaption>`.
+   - **Attributes**: None
+   - **Use Cases**: Wrapping images or illustrations with related captions or descriptions.
+   - **Example**:
      ```html
      <figure>
        <img src="example.jpg" alt="Example">
